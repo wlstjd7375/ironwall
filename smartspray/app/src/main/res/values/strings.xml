@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IRONWALL</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- NMapViewerResourceProvider -->
+    <string name="str_done">완료</string>
+    <string name="title_activity_sos">SosActivity</string>
+</resources>
