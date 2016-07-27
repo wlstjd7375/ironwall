@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.Toast;
 import android.view.ViewGroup.LayoutParams;
 
+import com.ironwall.android.smartspray.dto.PoliceStation;
+import com.ironwall.android.smartspray.global.GlobalVariable;
 import com.nhn.android.maps.NMapActivity;
 import com.nhn.android.maps.NMapCompassManager;
 import com.nhn.android.maps.NMapContext;
@@ -30,14 +32,16 @@ import com.nhn.android.mapviewer.overlay.NMapMyLocationOverlay;
 import com.nhn.android.mapviewer.overlay.NMapOverlayManager;
 import com.nhn.android.mapviewer.overlay.NMapPOIdataOverlay;
 
+import java.util.ArrayList;
+
 /**
  * Created by KimJS on 2016-07-24.
  */
 public class NMapManager {
 
-    private static final String LOG_TAG = "NMapManager";
-    private static final boolean DEBUG = true;
-    private static final int NMAP_ZOOM_LEVEL_DEFAUL = 11; // zoom level 이 커질수록 확대율도 커진다.
+    private static final String LOG_TAG = "NMapManager##";
+    private static final boolean DEBUG = GlobalVariable.IS_DEBUG_MODE;
+    private static final int NMAP_ZOOM_LEVEL_DEFAULT = 12; //## zoom level 이 커질수록 확대율도 커진다.
 
     private NMapView mMapView;
     private Context mContext;
@@ -53,9 +57,13 @@ public class NMapManager {
     private NMapCompassManager mMapCompassManager;
     private NMapMyLocationOverlay mMyLocationOverlay;
 
-
     private NMapPOIitem mFloatingPOIitem;
     private NMapPOIdataOverlay mFloatingPOIdataOverlay;
+
+    //## 주변의 경찰서 위치를 표시해주는 POI data 집합
+    private NMapPOIdataOverlay mPolicePOIDataOverlay;
+    //## 주변의 위험지역을 표시해주는 POI data 집합
+    private NMapPOIdataOverlay mDangerZonePOIDataOverlay;
 
     public NMapManager(Context _mContext, NMapView _mMapView) {
         mContext = _mContext;
@@ -123,7 +131,7 @@ public class NMapManager {
     }
 
     public void setDefault() {
-        mMapController.setZoomLevel(NMAP_ZOOM_LEVEL_DEFAUL);
+        mMapController.setZoomLevel(NMAP_ZOOM_LEVEL_DEFAULT);
     }
 
     /* MapView State Change Listener*/
@@ -325,7 +333,6 @@ public class NMapManager {
             // null을 반환하면 말풍선 오버레이를 표시하지 않음
             return null;
         }
-
     };
 
     /* MyLocation Listener */
@@ -374,7 +381,7 @@ public class NMapManager {
             }
 
             if (mMapLocationManager.isMyLocationEnabled()) {
-
+/*
                 if (!mMapView.isAutoRotateEnabled()) {
                     mMyLocationOverlay.setCompassHeadingVisible(true);
 
@@ -385,8 +392,9 @@ public class NMapManager {
                     //mMapContainerView.requestLayout();
                 } else {
                     stopMyLocation();
-                }
+                }*/
 
+                stopMyLocation();
                 mMapView.postInvalidate();
             } else {
                 boolean isMyLocationEnabled = mMapLocationManager.enableMyLocation(true);
@@ -395,9 +403,14 @@ public class NMapManager {
                             Toast.LENGTH_LONG).show();
                     Intent goToSettings = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
                     mContext.startActivity(goToSettings);
+
+                    //## 활성화 시키지 않고 뒤로가기 버튼을 누르면 계속 gps 활성화 창이 뜬다.
+                    //## 뒤로가기를 눌렀을 때 메인 화면으로 넘어가도록 설정
                     ((Activity)mContext).finish();
                     return;
                 }
+                //## 내 위치 표시
+                mMyLocationOverlay.setHidden(false);
             }
         }
     }
@@ -405,7 +418,10 @@ public class NMapManager {
     public void stopMyLocation() {
         if (mMyLocationOverlay != null) {
             mMapLocationManager.disableMyLocation();
+            //## 내 위치 표시 해제
+            mMyLocationOverlay.setHidden(true);
 
+            /*
             if (mMapView.isAutoRotateEnabled()) {
                 mMyLocationOverlay.setCompassHeadingVisible(false);
 
@@ -414,34 +430,82 @@ public class NMapManager {
                 mMapView.setAutoRotateEnabled(false, false);
 
                 //mMapContainerView.requestLayout();
-            }
+            }*/
         }
     }
 
+    // ## 내 위치로 화면 이동
+    public void moveToMyLocation() {
+        if (mMyLocationOverlay != null) {
+            if (!mOverlayManager.hasOverlay(mMyLocationOverlay)) {
+                mOverlayManager.addOverlay(mMyLocationOverlay);
+            }
+
+
+            boolean isMyLocationEnabled = mMapLocationManager.enableMyLocation(true);
+            if (!isMyLocationEnabled) {
+                Toast.makeText(mContext, "gps를 활성화 시켜서 내 위치를 확인하세요.",
+                        Toast.LENGTH_LONG).show();
+                Intent goToSettings = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                mContext.startActivity(goToSettings);
+                ((Activity)mContext).finish();
+                return;
+            }
+        }
+
+    }
+
+
     //  NGeoPoint(double longitude, double latitude) point : (경도, 위도)
     //
+    public void setPolicePOIdataOverlay(ArrayList<PoliceStation> mDataList) {
 
-    public void setPOIdataOverlay(double longitude, double latitude) {
+        //## 이미 주위 경창서 위치가 검색되어 있으면
+        if(mPolicePOIDataOverlay != null && mOverlayManager.hasOverlay(mPolicePOIDataOverlay)) {
+            //## 위치 삭제
+            mOverlayManager.removeOverlay(mPolicePOIDataOverlay);
+            mPolicePOIDataOverlay = null;
+
+            //## 화면 갱신
+            mMapView.postInvalidate();
+            return;
+        }
+
         // Markers for POI item
         int markerId = NMapPOIflagType.PIN;
 
-        // set POI data
-        NMapPOIdata poiData = new NMapPOIdata(2, mMapViewerResourceProvider);
-        poiData.beginPOIdata(2);
-        NMapPOIitem item = poiData.addPOIitem(longitude, latitude, "Pizza 777-111", markerId, 0);
-        item.setRightAccessory(true, NMapPOIflagType.CLICKABLE_ARROW);
+        int size = mDataList.size();
+        double longitude;
+        double latitude;
+        String policeName;
+        String policeNumber;
 
-        poiData.addPOIitem(127.061, 37.51, "Pizza 123-456", markerId, 0);
+        // set POI data
+        NMapPOIdata poiData = new NMapPOIdata(size, mMapViewerResourceProvider);
+        poiData.beginPOIdata(size);
+        for(PoliceStation ps : mDataList) {
+            longitude = ps.longitude;
+            latitude = ps.latitude;
+            policeName = ps.name;
+            policeNumber = ps.number;
+
+            NMapPOIitem item = poiData.addPOIitem(longitude, latitude, "" + policeName + "\n" + policeNumber, markerId, 0);
+            item.setRightAccessory(true, NMapPOIflagType.CLICKABLE_ARROW);
+        }
         poiData.endPOIdata();
 
+
         // create POI data overlay
-        NMapPOIdataOverlay poiDataOverlay = mOverlayManager.createPOIdataOverlay(poiData, null);
+        mPolicePOIDataOverlay = mOverlayManager.createPOIdataOverlay(poiData, null);
+        if(DEBUG) {
+            Log.d(LOG_TAG, "registered overlay count: " + mOverlayManager.sizeofOverlays());
+        }
 
         // set event listener to the overlay
-        poiDataOverlay.setOnStateChangeListener(onPOIdataStateChangeListener);
+        mPolicePOIDataOverlay.setOnStateChangeListener(onPOIdataStateChangeListener);
 
         // select an item
-        poiDataOverlay.selectPOIitem(0, true);
+        //poiDataOverlay.selectPOIitem(0, true);
 
         // show all POI data
         //poiDataOverlay.showAllPOIdata(0);

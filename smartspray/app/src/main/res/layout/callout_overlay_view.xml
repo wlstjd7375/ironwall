@@ -28,7 +28,7 @@
                 android:id="@+id/callout_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
+                android:gravity="start"
                 android:includeFontPadding="false"
                 android:text="..."
                 android:textSize="14dp"
@@ -39,13 +39,14 @@
                 android:duplicateParentState="true"
                 />
 
-            <!-- 화살표 아이콘 -->
+            <!-- call 아이콘 -->
             <ImageView
                 android:id="@+id/callout_rightArrow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3.33dp"
-                android:background="@drawable/pin_ballon_arrow"
+                android:background="@drawable/icon_call"
+                android:layout_gravity="center"
                 />
 
         </LinearLayout>

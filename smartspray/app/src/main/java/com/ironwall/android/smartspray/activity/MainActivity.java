@@ -2,6 +2,7 @@ package com.ironwall.android.smartspray.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -11,13 +12,18 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ironwall.android.smartspray.R;
 import com.ironwall.android.smartspray.database.DBManager;
+import com.ironwall.android.smartspray.util.GpsUtil;
+import com.ironwall.android.smartspray.util.NetworkUtil;
 
 import org.w3c.dom.Text;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -29,6 +35,16 @@ public class MainActivity extends AppCompatActivity
     private LinearLayout llSafenow;
     private LinearLayout llMap;
     private LinearLayout llSettings;
+
+    //## Connection Status Check
+    private ImageView ivInternetStatus;
+    private ImageView ivGPSStatus;
+    private ImageView ivBluetoothStatus;
+    private ImageView ivWIFIStatus;
+    private ArrayList<ImageView> statusList;
+
+    //## Refresh
+    private ImageView ivRefresh;
 
     private TextView tvSosNumberCount;
 
@@ -47,9 +63,12 @@ public class MainActivity extends AppCompatActivity
         super.onResume();
         int count = DBManager.getManager(mContext).getSosNumberCount();
         tvSosNumberCount.setText(count + "");
+
+        refreshConnectionStatus();
     }
 
     private void initLayout() {
+        //## Layout Buttons
         llSafenow = (LinearLayout)findViewById(R.id.llSafenow);
         llSafenow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,7 +100,29 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+        //## Registered SOS number count
         tvSosNumberCount = (TextView)findViewById(R.id.tvSosNumberCount);
+
+        //## Connection Status Check
+        ivInternetStatus = (ImageView)findViewById(R.id.ivInternetStatus);
+        ivGPSStatus = (ImageView)findViewById(R.id.ivGpsStatus);
+        ivBluetoothStatus = (ImageView)findViewById(R.id.ivBluetoothStatus);
+        ivWIFIStatus = (ImageView)findViewById(R.id.ivWIFIStatus);
+
+        statusList = new ArrayList<ImageView>();
+        statusList.add(ivInternetStatus);
+        statusList.add(ivGPSStatus);
+        statusList.add(ivBluetoothStatus);
+        statusList.add(ivWIFIStatus);
+
+        //## Refresh
+        ivRefresh = (ImageView)findViewById(R.id.ivRefresh);
+        ivRefresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                refreshConnectionStatus();
+            }
+        });
     }
 
     private void initNavigationDrawerActivity() {
@@ -106,6 +147,21 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    private void refreshConnectionStatus() {
+        int result = 0;
+        result += NetworkUtil.getConnectivityStatus(mContext);
+        result += GpsUtil.getConnectivityStatus(mContext);
+        for(int i = 0; i < 4; i ++) {
+            int on = result & 1;
+            if(on == 1) {
+                statusList.get(i).setBackgroundResource(R.drawable.icon_success);
+            } else {
+                statusList.get(i).setBackgroundResource(R.drawable.icon_fail);
+            }
+            result = result >> 1;
+        }
     }
 
     @Override
