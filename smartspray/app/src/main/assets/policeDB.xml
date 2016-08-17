@@ -1,0 +1,3517 @@
+<SebcPoliceStationKor>
+    <list_total_count>270</list_total_count>
+    <RESULT>
+        <CODE>INFO-000</CODE>
+        <MESSAGE>정상 처리되었습니다</MESSAGE>
+    </RESULT>
+    <row>
+        <main_key>BE_LiST32-0183</main_key>
+        <gov_code>1334818</gov_code>
+        <name_kor>풍납파출소</name_kor>
+        <add_kor>서울특별시 송파구 풍납동 403-11</add_kor>
+        <add_kor_road>서울특별시 송파구 토성로 64</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>풍납2동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6308</tel>
+        <latitude>37528718</latitude>
+        <longitude>127116755</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0184</main_key>
+        <gov_code>1329960</gov_code>
+        <name_kor>서울수서경찰서</name_kor>
+        <add_kor>서울특별시 강남구 개포동 14</add_kor>
+        <add_kor_road>서울특별시 강남구 개포로 617</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>일원2동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37493227</latitude>
+        <longitude>127076969</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0185</main_key>
+        <gov_code>1334837</gov_code>
+        <name_kor>개포파출소</name_kor>
+        <add_kor>서울특별시 강남구 개포동 1268</add_kor>
+        <add_kor_road>서울특별시 강남구 개포로 261</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>개포4동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-571-0112</tel>
+        <latitude>37479740</latitude>
+        <longitude>127051155</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0186</main_key>
+        <gov_code>1329981</gov_code>
+        <name_kor>대왕파출소</name_kor>
+        <add_kor>서울특별시 강남구 세곡동 120-9</add_kor>
+        <add_kor_road>서울특별시 강남구 헌릉로 623</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>세곡동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-3411-0323</tel>
+        <latitude>37465105</latitude>
+        <longitude>127107368</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0187</main_key>
+        <gov_code>1332697</gov_code>
+        <name_kor>대치지구대</name_kor>
+        <add_kor>서울특별시 강남구 대치1동 670</add_kor>
+        <add_kor_road>서울특별시 강남구 남부순환로 2907</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>대치1동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-538-1312</tel>
+        <latitude>37492509</latitude>
+        <longitude>127055947</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0188</main_key>
+        <gov_code>1332696</gov_code>
+        <name_kor>도곡지구대</name_kor>
+        <add_kor>서울특별시 강남구 도곡2동 461</add_kor>
+        <add_kor_road>서울특별시 강남구 남부순환로378길 29</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>도곡2동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-568-2522</tel>
+        <latitude>37484535</latitude>
+        <longitude>127046824</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0189</main_key>
+        <gov_code>1332698</gov_code>
+        <name_kor>수서파출소</name_kor>
+        <add_kor>서울특별시 강남구 수서동 718-1</add_kor>
+        <add_kor_road>서울특별시 강남구 밤고개로1길 48</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>수서동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-445-0112</tel>
+        <latitude>37489094</latitude>
+        <longitude>127104800</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0190</main_key>
+        <gov_code>1334836</gov_code>
+        <name_kor>일원파출소</name_kor>
+        <add_kor>서울특별시 강남구 일원동 621</add_kor>
+        <add_kor_road>서울특별시 강남구 일원로3길 35</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>일원1동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-3411-0112</tel>
+        <latitude>37492779</latitude>
+        <longitude>127082817</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0191</main_key>
+        <gov_code>1329834</gov_code>
+        <name_kor>서울양천경찰서</name_kor>
+        <add_kor>서울특별시 양천구 신정6동 321</add_kor>
+        <add_kor_road>서울특별시 양천구 목동동로 99</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신정6동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37516771</latitude>
+        <longitude>126865699</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0192</main_key>
+        <gov_code>1331499</gov_code>
+        <name_kor>목1지구대</name_kor>
+        <add_kor>서울특별시 양천구 목5동 907-3</add_kor>
+        <add_kor_road>서울특별시 양천구 목동동로 373</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>목5동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2648-0040</tel>
+        <latitude>37535136</latitude>
+        <longitude>126878541</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0193</main_key>
+        <gov_code>1331502</gov_code>
+        <name_kor>목2지구대</name_kor>
+        <add_kor>서울특별시 양천구 목3동 657-23</add_kor>
+        <add_kor_road>서울특별시 양천구 등촌로 166</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>목3동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2652-0112</tel>
+        <latitude>37544498</latitude>
+        <longitude>126862357</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0194</main_key>
+        <gov_code>1334815</gov_code>
+        <name_kor>신월1파출소</name_kor>
+        <add_kor>서울특별시 양천구 신월1동 132-3</add_kor>
+        <add_kor_road>서울특별시 양천구 남부순환로59길 8</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신월1동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2602-0092</tel>
+        <latitude>37532015</latitude>
+        <longitude>126832233</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0195</main_key>
+        <gov_code>1331500</gov_code>
+        <name_kor>신월2지구대</name_kor>
+        <add_kor>서울특별시 양천구 신월7동 988-1</add_kor>
+        <add_kor_road>서울특별시 양천구 지양로 55</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신월7동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2608-0112</tel>
+        <latitude>37520708</latitude>
+        <longitude>126834158</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0196</main_key>
+        <gov_code>1334816</gov_code>
+        <name_kor>신월5파출소</name_kor>
+        <add_kor>서울특별시 양천구 신월5동 59-5</add_kor>
+        <add_kor_road>서울특별시 양천구 남부순환로31길 37</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신월5동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2693-0113</tel>
+        <latitude>37539030</latitude>
+        <longitude>126830662</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0197</main_key>
+        <gov_code>1331501</gov_code>
+        <name_kor>신정1지구대</name_kor>
+        <add_kor>서울특별시 양천구 신정1동 1021-8</add_kor>
+        <add_kor_road>서울특별시 양천구 중앙로32길 65 </add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신정1동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2643-0113</tel>
+        <latitude>37520259</latitude>
+        <longitude>126860756</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0198</main_key>
+        <gov_code>1331503</gov_code>
+        <name_kor>신정2지구대</name_kor>
+        <add_kor>서울특별시 양천구 신정4동 997-3</add_kor>
+        <add_kor_road>서울특별시 양천구 목동로 17</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신정7동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2699-0678</tel>
+        <latitude>37524402</latitude>
+        <longitude>126863419</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0199</main_key>
+        <gov_code>1332884</gov_code>
+        <name_kor>신정3파출소</name_kor>
+        <add_kor>서울특별시 양천구 신정3동 1259</add_kor>
+        <add_kor_road>서울특별시 양천구 중앙로 205</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신정3동</h_kor_dong>
+        <h_kor_gu>양천구</h_kor_gu>
+        <tel>02-2696-2305</tel>
+        <latitude>37513814</latitude>
+        <longitude>126854201</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0200</main_key>
+        <gov_code>1329457</gov_code>
+        <name_kor>서울영등포경찰서</name_kor>
+        <add_kor>서울특별시 영등포구 당산동3가 2-11</add_kor>
+        <add_kor_road>서울특별시 영등포구 국회대로 608</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>당산1동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37526044</latitude>
+        <longitude>126900809</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0201</main_key>
+        <gov_code>1335189</gov_code>
+        <name_kor>당산파출소</name_kor>
+        <add_kor>서울특별시 영등포구 당산동5가 15</add_kor>
+        <add_kor_road>서울특별시 영등포구 당산로 221</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>당산2동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-2633-3874</tel>
+        <latitude>37533584</latitude>
+        <longitude>126901260</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0202</main_key>
+        <gov_code>1334762</gov_code>
+        <name_kor>대림3파출소</name_kor>
+        <add_kor>서울특별시 영등포구 대림3동 740-4</add_kor>
+        <add_kor_road>서울특별시 영등포구 대림로 197</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>대림3동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-848-1918</tel>
+        <latitude>37498287</latitude>
+        <longitude>126898022</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0203</main_key>
+        <gov_code>1334761</gov_code>
+        <name_kor>대림파출소</name_kor>
+        <add_kor>서울특별시 영등포구 대림동 706-8</add_kor>
+        <add_kor_road>서울특별시 영등포구 대림로23길 16-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>대림2동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-847-0112</tel>
+        <latitude>37493389</latitude>
+        <longitude>126898690</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0204</main_key>
+        <gov_code>1331424</gov_code>
+        <name_kor>문래지구대</name_kor>
+        <add_kor>서울특별시 영등포구 문래동3가 54-2</add_kor>
+        <add_kor_road>서울특별시 영등포구 경인로 759</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>문래동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-2633-5060</tel>
+        <latitude>37513541</latitude>
+        <longitude>126897637</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0205</main_key>
+        <gov_code>1332631</gov_code>
+        <name_kor>신길지구대</name_kor>
+        <add_kor>서울특별시 영등포구 신길동 186-280</add_kor>
+        <add_kor_road>서울특별시 영등포구 신길로60다길 16</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>영등포본동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-842-3386</tel>
+        <latitude>37513422</latitude>
+        <longitude>126914154</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0206</main_key>
+        <gov_code>1332630</gov_code>
+        <name_kor>신풍지구대</name_kor>
+        <add_kor>서울특별시 영등포구 신길동 3741-23</add_kor>
+        <add_kor_road>서울특별시 영등포구 대방천로 195</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신길6동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-833-2070</tel>
+        <latitude>37499118</latitude>
+        <longitude>126912773</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0207</main_key>
+        <gov_code>1335190</gov_code>
+        <name_kor>양평파출소</name_kor>
+        <add_kor>서울특별시 영등포구 양평동1가 164-22</add_kor>
+        <add_kor_road>서울특별시 영등포구 선유로 95</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>양평1동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-2635-6398</tel>
+        <latitude>37522679</latitude>
+        <longitude>126889673</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0208</main_key>
+        <gov_code>1332351</gov_code>
+        <name_kor>여의도지구대</name_kor>
+        <add_kor>서울특별시 영등포구 여의도동 2</add_kor>
+        <add_kor_road>서울특별시 영등포구 여의공원로 120</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>여의동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-784-0112</tel>
+        <latitude>37526808</latitude>
+        <longitude>126922322</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0236</main_key>
+        <gov_code>1331388</gov_code>
+        <name_kor>청운파출소</name_kor>
+        <add_kor>서울특별시 종로구 궁정동 12-1</add_kor>
+        <add_kor_road>서울특별시 종로구 자하문로 92</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>청운효자동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-732-1055</tel>
+        <latitude>37584115</latitude>
+        <longitude>126970573</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0133</main_key>
+        <gov_code>1334826</gov_code>
+        <name_kor>이수파출소</name_kor>
+        <add_kor>서울특별시 서초구 방배본동 774-9</add_kor>
+        <add_kor_road>서울특별시 서초구 동광로19길 38</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방배본동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-599-3880</tel>
+        <latitude>37494111</latitude>
+        <longitude>126988837</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0134</main_key>
+        <gov_code>1329309</gov_code>
+        <name_kor>서울서대문경찰서</name_kor>
+        <add_kor>서울특별시 서대문구 미근동 165</add_kor>
+        <add_kor_road>서울특별시 서대문구 통일로 113</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>충현동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37564820</latitude>
+        <longitude>126966995</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0135</main_key>
+        <gov_code>1334734</gov_code>
+        <name_kor>남가좌파출소</name_kor>
+        <add_kor>서울특별시 서대문구 남가좌동 336-21</add_kor>
+        <add_kor_road>서울특별시 서대문구 가재울로4길 51</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>남가좌2동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8305</tel>
+        <latitude>37576001</latitude>
+        <longitude>126924025</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0136</main_key>
+        <gov_code>1334735</gov_code>
+        <name_kor>북가좌파출소</name_kor>
+        <add_kor>서울특별시 서대문구 북가좌동 333-5</add_kor>
+        <add_kor_road>서울특별시 서대문구 증가로 244</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>북가좌2동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8306</tel>
+        <latitude>37582953</latitude>
+        <longitude>126912864</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0137</main_key>
+        <gov_code>1331395</gov_code>
+        <name_kor>신촌지구대</name_kor>
+        <add_kor>서울특별시 서대문구 대현동 27-14</add_kor>
+        <add_kor_road>서울특별시 서대문구 신촌역로 22</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신촌동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8302</tel>
+        <latitude>37558512</latitude>
+        <longitude>126942994</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0138</main_key>
+        <gov_code>1334736</gov_code>
+        <name_kor>연희파출소</name_kor>
+        <add_kor>서울특별시 서대문구 연희동 86-12</add_kor>
+        <add_kor_road>서울특별시 서대문구 연희로25길 73</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>연희동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8304</tel>
+        <latitude>37570238</latitude>
+        <longitude>126932835</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0139</main_key>
+        <gov_code>1331394</gov_code>
+        <name_kor>충정로지구대</name_kor>
+        <add_kor>서울특별시 서대문구 충정로3가 154-2</add_kor>
+        <add_kor_road>서울특별시 서대문구 독립문로 25-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>천연동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8301</tel>
+        <latitude>37562280</latitude>
+        <longitude>126963769</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0140</main_key>
+        <gov_code>1334737</gov_code>
+        <name_kor>홍은2파출소</name_kor>
+        <add_kor>서울특별시 서대문구 홍은동 424</add_kor>
+        <add_kor_road>서울특별시 서대문구 연희로 298</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>홍은2동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8308</tel>
+        <latitude>37583559</latitude>
+        <longitude>126936180</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0141</main_key>
+        <gov_code>1335592</gov_code>
+        <name_kor>홍은파출소</name_kor>
+        <add_kor>서울특별시 서대문구 홍은동 48-461</add_kor>
+        <add_kor_road>서울특별시 서대문구 세검정로1길 112</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>홍은1동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8303</tel>
+        <latitude>37595209</latitude>
+        <longitude>126946405</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0142</main_key>
+        <gov_code>1334238</gov_code>
+        <name_kor>홍제파출소</name_kor>
+        <add_kor>서울특별시 서대문구 홍제1동 173-4</add_kor>
+        <add_kor_road>서울특별시 서대문구 통일로 441-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>홍제1동</h_kor_dong>
+        <h_kor_gu>서대문구</h_kor_gu>
+        <tel>02-335-8307</tel>
+        <latitude>37588046</latitude>
+        <longitude>126944450</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0143</main_key>
+        <gov_code>1329564</gov_code>
+        <name_kor>서울서부경찰서</name_kor>
+        <add_kor>서울특별시 은평구 대조동 2-9</add_kor>
+        <add_kor_road>서울특별시 은평구 은평로9길 15</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>녹번동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37612727</latitude>
+        <longitude>126927647</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0144</main_key>
+        <gov_code>1334777</gov_code>
+        <name_kor>녹번파출소</name_kor>
+        <add_kor>서울특별시 은평구 녹번동 115-27</add_kor>
+        <add_kor_road>서울특별시 은평구 진흥로 200</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>녹번동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-355-7112</tel>
+        <latitude>37608769</latitude>
+        <longitude>126931822</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0145</main_key>
+        <gov_code>1332661</gov_code>
+        <name_kor>신사지구대</name_kor>
+        <add_kor>서울특별시 은평구 신사2동 184-56</add_kor>
+        <add_kor_road>서울특별시 은평구 은평터널로5길 6</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신사2동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-303-4403</tel>
+        <latitude>37591780</latitude>
+        <longitude>126905354</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0146</main_key>
+        <gov_code>1334778</gov_code>
+        <name_kor>응암3파출소</name_kor>
+        <add_kor>서울특별시 은평구 응암동 576-42</add_kor>
+        <add_kor_road>서울특별시 은평구 응암로 208</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>응암3동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-302-0214</tel>
+        <latitude>37590484</latitude>
+        <longitude>126917527</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0147</main_key>
+        <gov_code>1331442</gov_code>
+        <name_kor>응암지구대</name_kor>
+        <add_kor>서울특별시 은평구 응암동 84-8</add_kor>
+        <add_kor_road>서울특별시 은평구 은평로 171</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>응암1동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-352-4289</tel>
+        <latitude>37601594</latitude>
+        <longitude>126926431</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0148</main_key>
+        <gov_code>1329813</gov_code>
+        <name_kor>서울서초경찰서</name_kor>
+        <add_kor>서울특별시 서초구 서초3동 1726-1</add_kor>
+        <add_kor_road>서울특별시 서초구 반포대로 179</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>서초3동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37495255</latitude>
+        <longitude>127005460</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0149</main_key>
+        <gov_code>1332883</gov_code>
+        <name_kor>내곡파출소</name_kor>
+        <add_kor>서울특별시 서초구 염곡동 180-11</add_kor>
+        <add_kor_road>서울특별시 서초구 염곡말길 9</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>내곡동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-573-5826</tel>
+        <latitude>37461875</latitude>
+        <longitude>127051163</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0150</main_key>
+        <gov_code>1331497</gov_code>
+        <name_kor>반포지구대</name_kor>
+        <add_kor>서울특별시 서초구 반포동 19-5</add_kor>
+        <add_kor_road>서울특별시 서초구 신반포로 190</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>반포4동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-536-8477</tel>
+        <latitude>37505925</latitude>
+        <longitude>127005172</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0151</main_key>
+        <gov_code>1334814</gov_code>
+        <name_kor>서초2파출소</name_kor>
+        <add_kor>서울특별시 서초구 서초동 1336-1</add_kor>
+        <add_kor_road>서울특별시 서초구 효령로77길 37</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>서초2동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-581-1120</tel>
+        <latitude>37492153</latitude>
+        <longitude>127027982</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0152</main_key>
+        <gov_code>1334813</gov_code>
+        <name_kor>서초3파출소</name_kor>
+        <add_kor>서울특별시 서초구 방배동 1001-32</add_kor>
+        <add_kor_road>서울특별시 서초구 반포대로30길 40</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>서초3동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-582-2120</tel>
+        <latitude>37482323</latitude>
+        <longitude>127004444</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0153</main_key>
+        <gov_code>1334812</gov_code>
+        <name_kor>서초파출소</name_kor>
+        <add_kor>서울특별시 서초구 서초동 1603-16</add_kor>
+        <add_kor_road>서울특별시 서초구 효령로 297</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>서초1동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-583-6249</tel>
+        <latitude>37485247</latitude>
+        <longitude>127016726</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0154</main_key>
+        <gov_code>1334810</gov_code>
+        <name_kor>양재파출소</name_kor>
+        <add_kor>서울특별시 서초구 양재동 1-3</add_kor>
+        <add_kor_road>서울특별시 서초구 남부순환로356길 9 </add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>양재1동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-572-0692</tel>
+        <latitude>37484506</latitude>
+        <longitude>127037802</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0155</main_key>
+        <gov_code>1334811</gov_code>
+        <name_kor>우면파출소</name_kor>
+        <add_kor>서울특별시 서초구 우면동 69</add_kor>
+        <add_kor_road>서울특별시 서초구 바우뫼로 45</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>양재1동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-572-0113</tel>
+        <latitude>37471828</latitude>
+        <longitude>127027153</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0156</main_key>
+        <gov_code>1329479</gov_code>
+        <name_kor>서울성동경찰서</name_kor>
+        <add_kor>서울특별시 성동구 행당동 192-8</add_kor>
+        <add_kor_road>서울특별시 성동구 왕십리광장로 9</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>행당1동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37561730</latitude>
+        <longitude>127036421</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0157</main_key>
+        <gov_code>1334770</gov_code>
+        <name_kor>금호파출소</name_kor>
+        <add_kor>서울특별시 성동구 금호동2가 224</add_kor>
+        <add_kor_road>서울특별시 성동구 금호로11길 2-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>금호2.3가동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-2231-6253</tel>
+        <latitude>37554731</latitude>
+        <longitude>127019579</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0237</main_key>
+        <gov_code>1334235</gov_code>
+        <name_kor>청진파출소</name_kor>
+        <add_kor>서울특별시 종로구 수송동 146-2</add_kor>
+        <add_kor_road>서울특별시 종로구 삼봉로 33</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종로1.2.3.4가동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-732-1114</tel>
+        <latitude>37572810</latitude>
+        <longitude>126979125</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0238</main_key>
+        <gov_code>1331387</gov_code>
+        <name_kor>통의파출소</name_kor>
+        <add_kor>서울특별시 종로구 통의동 35-66</add_kor>
+        <add_kor_road>서울특별시 종로구 효자로 9</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>사직동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-732-1045</tel>
+        <latitude>37576730</latitude>
+        <longitude>126973993</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0239</main_key>
+        <gov_code>1334731</gov_code>
+        <name_kor>평창파출소</name_kor>
+        <add_kor>서울특별시 종로구 평창동 273-3</add_kor>
+        <add_kor_road>서울특별시 종로구 평창문화로 46</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>평창동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-379-6356</tel>
+        <latitude>37604911</latitude>
+        <longitude>126965970</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0240</main_key>
+        <gov_code>1329768</gov_code>
+        <name_kor>서울종암경찰서</name_kor>
+        <add_kor>서울특별시 성북구 종암동 3-1260</add_kor>
+        <add_kor_road>서울특별시 성북구 종암로 135</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종암동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37601999</latitude>
+        <longitude>127032227</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0241</main_key>
+        <gov_code>1335595</gov_code>
+        <name_kor>석관파출소</name_kor>
+        <add_kor>서울특별시 성북구 석관동 407-3</add_kor>
+        <add_kor_road>서울특별시 성북구 화랑로32가길 20</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>석관동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-960-3094</tel>
+        <latitude>37608919</latitude>
+        <longitude>127055254</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0242</main_key>
+        <gov_code>1335586</gov_code>
+        <name_kor>월곡지구대</name_kor>
+        <add_kor>서울특별시 성북구 월곡1동 90-1152</add_kor>
+        <add_kor_road>서울특별시 성북구 종암로32길 5</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>월곡1동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-919-9696</tel>
+        <latitude>37604401</latitude>
+        <longitude>127032401</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0243</main_key>
+        <gov_code>1331486</gov_code>
+        <name_kor>장위지구대</name_kor>
+        <add_kor>서울특별시 성북구 장위2동 68-161</add_kor>
+        <add_kor_road>서울특별시 성북구 화랑로19길 85</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>장위2동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-919-9438</tel>
+        <latitude>37609838</latitude>
+        <longitude>127051259</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0244</main_key>
+        <gov_code>1334807</gov_code>
+        <name_kor>종암파출소</name_kor>
+        <add_kor>서울특별시 성북구 종암동 78-132</add_kor>
+        <add_kor_road>서울특별시 성북구 종암로23길 52</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종암동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-925-0680</tel>
+        <latitude>37600033</latitude>
+        <longitude>127031263</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0245</main_key>
+        <gov_code>1329641</gov_code>
+        <name_kor>서울중랑경찰서</name_kor>
+        <add_kor>서울특별시 중랑구 신내동 267-1</add_kor>
+        <add_kor_road>서울특별시 중랑구 신내역로3길 40-10</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신내1동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37618599</latitude>
+        <longitude>127104587</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0246</main_key>
+        <gov_code>1332357</gov_code>
+        <name_kor>망우지구대</name_kor>
+        <add_kor>서울특별시 중랑구 망우동 489-7</add_kor>
+        <add_kor_road>서울특별시 중랑구 망우로 391</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>망우본동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-434-8608</tel>
+        <latitude>37599040</latitude>
+        <longitude>127095572</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0247</main_key>
+        <gov_code>1334789</gov_code>
+        <name_kor>먹골파출소</name_kor>
+        <add_kor>서울특별시 중랑구 묵동 120</add_kor>
+        <add_kor_road>서울특별시 중랑구 숙선옹주로7길 1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>묵1동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-973-4702</tel>
+        <latitude>37614581</latitude>
+        <longitude>127081553</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0248</main_key>
+        <gov_code>1334243</gov_code>
+        <name_kor>면목본동파출소</name_kor>
+        <add_kor>서울특별시 중랑구 면목동 71-24</add_kor>
+        <add_kor_road>서울특별시 중랑구 상봉로 27</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>면목본동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-434-0469</tel>
+        <latitude>37588155</latitude>
+        <longitude>127093866</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0249</main_key>
+        <gov_code>1334244</gov_code>
+        <name_kor>면목삼팔파출소</name_kor>
+        <add_kor>서울특별시 중랑구 면목동 1508-3</add_kor>
+        <add_kor_road>서울특별시 중랑구 사가정로41길 45</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>면목제3.8동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-435-9438</tel>
+        <latitude>37583169</latitude>
+        <longitude>127084139</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0250</main_key>
+        <gov_code>1332387</gov_code>
+        <name_kor>봉화지구대</name_kor>
+        <add_kor>서울특별시 중랑구 신내동 644</add_kor>
+        <add_kor_road>서울특별시 중랑구 신내로 177</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신내2동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-3422-0018</tel>
+        <latitude>37615419</latitude>
+        <longitude>127094413</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0251</main_key>
+        <gov_code>1334787</gov_code>
+        <name_kor>상봉파출소</name_kor>
+        <add_kor>서울특별시 중랑구 면목동 198-1</add_kor>
+        <add_kor_road>서울특별시 중랑구 중랑천로 69</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>면목2동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-433-1675</tel>
+        <latitude>37591287</latitude>
+        <longitude>127072834</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0252</main_key>
+        <gov_code>1332358</gov_code>
+        <name_kor>용마지구대</name_kor>
+        <add_kor>서울특별시 중랑구 면목5동 168-1</add_kor>
+        <add_kor_road>서울특별시 중랑구 동일로 566</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>면목5동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-434-3007</tel>
+        <latitude>37581148</latitude>
+        <longitude>127080094</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0253</main_key>
+        <gov_code>1335585</gov_code>
+        <name_kor>중화지구대</name_kor>
+        <add_kor>서울특별시 중랑구 중화동 326-114</add_kor>
+        <add_kor_road>서울특별시 중랑구 중랑천로 146</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중화2동</h_kor_dong>
+        <h_kor_gu>중랑구</h_kor_gu>
+        <tel>02-434-8768</tel>
+        <latitude>37597970</latitude>
+        <longitude>127072212</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0254</main_key>
+        <gov_code>1329261</gov_code>
+        <name_kor>서울중부경찰서</name_kor>
+        <add_kor>서울특별시 중구 저동2가 62-1</add_kor>
+        <add_kor_road>서울특별시 중구 수표로 27</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>을지로동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37563617</latitude>
+        <longitude>126989651</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0255</main_key>
+        <gov_code>1334232</gov_code>
+        <name_kor>광희지구대</name_kor>
+        <add_kor>서울특별시 중구 신당동 250-10</add_kor>
+        <add_kor_road>서울특별시 중구 퇴계로 375-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신당동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-2233-1444</tel>
+        <latitude>37565229</latitude>
+        <longitude>127013363</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0256</main_key>
+        <gov_code>1334233</gov_code>
+        <name_kor>신당파출소</name_kor>
+        <add_kor>서울특별시 중구 신당5동 100</add_kor>
+        <add_kor_road>서울특별시 중구 다산로 248</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신당5동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-2252-0435</tel>
+        <latitude>37564147</latitude>
+        <longitude>127016069</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0257</main_key>
+        <gov_code>1332612</gov_code>
+        <name_kor>약수지구대</name_kor>
+        <add_kor>서울특별시 중구 신당동 844-3</add_kor>
+        <add_kor_road>서울특별시 중구 동호로5길 15</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>약수동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-2234-8112</tel>
+        <latitude>37552105</latitude>
+        <longitude>127012369</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0258</main_key>
+        <gov_code>1335003</gov_code>
+        <name_kor>을지로3가파출소</name_kor>
+        <add_kor>서울특별시 중구 을지로3가 291-50</add_kor>
+        <add_kor_road>서울특별시 중구 충무로 56-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>을지로동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-2266-2404</tel>
+        <latitude>37566138</latitude>
+        <longitude>126992824</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0259</main_key>
+        <gov_code>1331383</gov_code>
+        <name_kor>을지지구대</name_kor>
+        <add_kor>서울특별시 중구 을지로5가 72-1</add_kor>
+        <add_kor_road>서울특별시 중구 을지로 234 </add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>을지로동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-2279-1908</tel>
+        <latitude>37566437</latitude>
+        <longitude>127003929</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0260</main_key>
+        <gov_code>1334234</gov_code>
+        <name_kor>장충파출소</name_kor>
+        <add_kor>서울특별시 중구 장충동2가 196-2</add_kor>
+        <add_kor_road>서울특별시 중구 동호로 261</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>장충동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-2274-9003</tel>
+        <latitude>37558928</latitude>
+        <longitude>127004799</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0131</main_key>
+        <gov_code>1334827</gov_code>
+        <name_kor>방배1파출소</name_kor>
+        <add_kor>서울특별시 서초구 방배1동 906-5</add_kor>
+        <add_kor_road>서울특별시 서초구 방배로16길 16-8 </add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방배1동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-583-7694</tel>
+        <latitude>37484494</latitude>
+        <longitude>126996837</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0132</main_key>
+        <gov_code>1335593</gov_code>
+        <name_kor>서래파출소</name_kor>
+        <add_kor>서울특별시 서초구 반포동 16-4</add_kor>
+        <add_kor_road>서울특별시 서초구 신반포로16길 15-14</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>반포2동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-534-0116</tel>
+        <latitude>37502062</latitude>
+        <longitude>126996932</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0209</main_key>
+        <gov_code>1334765</gov_code>
+        <name_kor>영등포역파출소</name_kor>
+        <add_kor>서울특별시 영등포구 영등포동1가 618-7</add_kor>
+        <add_kor_road>서울특별시 영등포구 경인로102길 13</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>영등포본동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-2678-3058</tel>
+        <latitude>37515345</latitude>
+        <longitude>126905755</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0210</main_key>
+        <gov_code>1332350</gov_code>
+        <name_kor>중앙지구대</name_kor>
+        <add_kor>서울특별시 영등포구 영등포동3가 18-1</add_kor>
+        <add_kor_road>서울특별시 영등포구 영등포46길 14</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>당산1동</h_kor_dong>
+        <h_kor_gu>영등포구</h_kor_gu>
+        <tel>02-2678-4554</tel>
+        <latitude>37517970</latitude>
+        <longitude>126907501</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0211</main_key>
+        <gov_code>1329352</gov_code>
+        <name_kor>서울용산경찰서</name_kor>
+        <add_kor>서울특별시 용산구 원효로1가 12-12</add_kor>
+        <add_kor_road>서울특별시 용산구 원효로89길 24</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>청파동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37541126</latitude>
+        <longitude>126967532</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0212</main_key>
+        <gov_code>1334748</gov_code>
+        <name_kor>보광파출소</name_kor>
+        <add_kor>서울특별시 용산구 보광동 221-1</add_kor>
+        <add_kor_road>서울특별시 용산구 보광로 27</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>보광동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0142</tel>
+        <latitude>37526756</latitude>
+        <longitude>127000152</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0213</main_key>
+        <gov_code>1334746</gov_code>
+        <name_kor>용산역파출소</name_kor>
+        <add_kor>서울특별시 용산구 한강로2가 396-1</add_kor>
+        <add_kor_road>서울특별시 용산구 한강대로23길 30</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>한강로동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0150</tel>
+        <latitude>37527941</latitude>
+        <longitude>126965560</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0214</main_key>
+        <gov_code>1331403</gov_code>
+        <name_kor>용중지구대</name_kor>
+        <add_kor>서울특별시 용산구 후암동 244-1</add_kor>
+        <add_kor_road>서울특별시 용산구 후암로16나길 17</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>후암동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0116</tel>
+        <latitude>37548681</latitude>
+        <longitude>126979396</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0215</main_key>
+        <gov_code>1331401</gov_code>
+        <name_kor>원효지구대</name_kor>
+        <add_kor>서울특별시 용산구 원효로1가 25</add_kor>
+        <add_kor_road>서울특별시 용산구 백범로 329</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>원효로1동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0191</tel>
+        <latitude>37538551</latitude>
+        <longitude>126965426</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0216</main_key>
+        <gov_code>1334747</gov_code>
+        <name_kor>이촌파출소</name_kor>
+        <add_kor>서울특별시 용산구 이촌동 301-86</add_kor>
+        <add_kor_road>서울특별시 용산구 이촌로 219</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>이촌1동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0165</tel>
+        <latitude>37520759</latitude>
+        <longitude>126971702</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0217</main_key>
+        <gov_code>1335512</gov_code>
+        <name_kor>이태원파출소</name_kor>
+        <add_kor>서울특별시 용산구 이태원1동 127-10</add_kor>
+        <add_kor_road>서울특별시 용산구 이태원로 184</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>이태원1동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0125</tel>
+        <latitude>37534272</latitude>
+        <longitude>126994389</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0218</main_key>
+        <gov_code>1334745</gov_code>
+        <name_kor>한강로파출소</name_kor>
+        <add_kor>서울특별시 용산구 용산동5가 24</add_kor>
+        <add_kor_road>서울특별시 용산구 서빙고로 67</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>한강로동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0158</tel>
+        <latitude>37524256</latitude>
+        <longitude>126970731</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0219</main_key>
+        <gov_code>1335513</gov_code>
+        <name_kor>한남파출소</name_kor>
+        <add_kor>서울특별시 용산구 한남동 622-3</add_kor>
+        <add_kor_road>서울특별시 용산구 대사관로34길 49</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>한남동</h_kor_dong>
+        <h_kor_gu>용산구</h_kor_gu>
+        <tel>02-2198-0134</tel>
+        <latitude>37531124</latitude>
+        <longitude>127006269</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0220</main_key>
+        <gov_code>1329922</gov_code>
+        <name_kor>서울은평경찰서</name_kor>
+        <add_kor>서울특별시 은평구 불광동 산24</add_kor>
+        <add_kor_road>서울특별시 은평구 연서로 365</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>불광2동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37628020</latitude>
+        <longitude>126928789</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0221</main_key>
+        <gov_code>1334829</gov_code>
+        <name_kor>대조파출소</name_kor>
+        <add_kor>서울특별시 은평구 대조동 5-17</add_kor>
+        <add_kor_road>서울특별시 은평구 통일로 737</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>대조동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-350-1938</tel>
+        <latitude>37611102</latitude>
+        <longitude>126928966</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0222</main_key>
+        <gov_code>1331517</gov_code>
+        <name_kor>불광지구대</name_kor>
+        <add_kor>서울특별시 은평구 불광동 423-16</add_kor>
+        <add_kor_road>서울특별시 은평구 연서로 290</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>불광2동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-350-1922</tel>
+        <latitude>37621383</latitude>
+        <longitude>126926527</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0223</main_key>
+        <gov_code>1334828</gov_code>
+        <name_kor>역촌파출소</name_kor>
+        <add_kor>서울특별시 은평구 역촌동 62-26</add_kor>
+        <add_kor_road>서울특별시 은평구 연서로 61</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>역촌동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-350-1934</tel>
+        <latitude>37604417</latitude>
+        <longitude>126915163</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0224</main_key>
+        <gov_code>1331518</gov_code>
+        <name_kor>연신내지구대</name_kor>
+        <add_kor>서울특별시 은평구 갈현동 506-45</add_kor>
+        <add_kor_road>서울특별시 은평구 갈현로 195</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>갈현2동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-350-1926</tel>
+        <latitude>37615090</latitude>
+        <longitude>126912682</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0225</main_key>
+        <gov_code>1335594</gov_code>
+        <name_kor>진관파출소</name_kor>
+        <add_kor>서울특별시 은평구 진관동 68-1</add_kor>
+        <add_kor_road>서울특별시 은평구 진관3로 38</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>진관동</h_kor_dong>
+        <h_kor_gu>은평구</h_kor_gu>
+        <tel>02-350-1930</tel>
+        <latitude>37636700</latitude>
+        <longitude>126918308</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0226</main_key>
+        <gov_code>1329275</gov_code>
+        <name_kor>서울종로경찰서</name_kor>
+        <add_kor>서울특별시 종로구 경운동 90-18</add_kor>
+        <add_kor_road>서울특별시 종로구 율곡로 46</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종로1.2.3.4가동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37575606</latitude>
+        <longitude>126984793</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0227</main_key>
+        <gov_code>1334729</gov_code>
+        <name_kor>관수파출소</name_kor>
+        <add_kor>서울특별시 종로구 관철동 28-9</add_kor>
+        <add_kor_road>서울특별시 종로구 삼일대로 386</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종로1.2.3.4가동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-2285-4248</tel>
+        <latitude>37569023</latitude>
+        <longitude>126988016</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0228</main_key>
+        <gov_code>1332874</gov_code>
+        <name_kor>교남파출소</name_kor>
+        <add_kor>서울특별시 종로구 교북동 35-5</add_kor>
+        <add_kor_road>서울특별시 종로구 송월길 167</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>교남동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-732-4023</tel>
+        <latitude>37571036</latitude>
+        <longitude>126962108</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0229</main_key>
+        <gov_code>1334120</gov_code>
+        <name_kor>사직파출소</name_kor>
+        <add_kor>서울특별시 종로구 사직동 1-48</add_kor>
+        <add_kor_road>서울특별시 종로구 사직로9길 5</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>사직동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-735-8410</tel>
+        <latitude>37575647</latitude>
+        <longitude>126967526</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0230</main_key>
+        <gov_code>1331386</gov_code>
+        <name_kor>삼청파출소</name_kor>
+        <add_kor>서울특별시 종로구 소격동 1-1</add_kor>
+        <add_kor_road>서울특별시 종로구 삼청로 66</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>삼청동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-732-1034</tel>
+        <latitude>37581368</latitude>
+        <longitude>126981108</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0231</main_key>
+        <gov_code>1334730</gov_code>
+        <name_kor>세검정파출소</name_kor>
+        <add_kor>서울특별시 종로구 홍지동 95-1</add_kor>
+        <add_kor_road>서울특별시 종로구 세검정로 226</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>부암동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-391-7694</tel>
+        <latitude>37599982</latitude>
+        <longitude>126958449</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0232</main_key>
+        <gov_code>1333997</gov_code>
+        <name_kor>세종로파출소</name_kor>
+        <add_kor>서울특별시 중구 태평로1가 68-1</add_kor>
+        <add_kor_road>서울특별시 중구 세종대로 141</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>명동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-720-7075</tel>
+        <latitude>37568906</latitude>
+        <longitude>126976402</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0233</main_key>
+        <gov_code>1334119</gov_code>
+        <name_kor>신문로파출소</name_kor>
+        <add_kor>서울특별시 종로구 신문로1가 58-16</add_kor>
+        <add_kor_road>서울특별시 종로구 경희궁길 6-3</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>사직동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-736-6079</tel>
+        <latitude>37570716</latitude>
+        <longitude>126972219</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0234</main_key>
+        <gov_code>1331389</gov_code>
+        <name_kor>옥인파출소</name_kor>
+        <add_kor>서울특별시 종로구 옥인동 45-16</add_kor>
+        <add_kor_road>서울특별시 종로구 자하문로17길 24</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>청운효자동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-732-1067</tel>
+        <latitude>37581432</latitude>
+        <longitude>126969412</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0235</main_key>
+        <gov_code>1334728</gov_code>
+        <name_kor>종로2가파출소</name_kor>
+        <add_kor>서울특별시 종로구 종로2가 39-3</add_kor>
+        <add_kor_road>서울특별시 종로구 종로17길 4</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종로1.2.3.4가동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-763-0112</tel>
+        <latitude>37570462</latitude>
+        <longitude>126988910</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0158</main_key>
+        <gov_code>1332876</gov_code>
+        <name_kor>서울숲지구대</name_kor>
+        <add_kor>서울특별시 성동구 성수동2가 344-7</add_kor>
+        <add_kor_road>서울특별시 성동구 성덕정길 77-2</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>성수2가1동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-464-0113</tel>
+        <latitude>37538028</latitude>
+        <longitude>127052246</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0159</main_key>
+        <gov_code>1332633</gov_code>
+        <name_kor>성수지구대</name_kor>
+        <add_kor>서울특별시 성동구 성수2가3동 299-24</add_kor>
+        <add_kor_road>서울특별시 성동구 광나루로2길 35</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>성수2가3동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-463-0112</tel>
+        <latitude>37549455</latitude>
+        <longitude>127055014</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0160</main_key>
+        <gov_code>1335547</gov_code>
+        <name_kor>옥수파출소</name_kor>
+        <add_kor>서울특별시 성동구 옥수동 561</add_kor>
+        <add_kor_road>서울특별시 성동구 독서당로 211</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>옥수동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-2298-5031</tel>
+        <latitude>37539806</latitude>
+        <longitude>127022209</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0161</main_key>
+        <gov_code>1334767</gov_code>
+        <name_kor>왕십리파출소</name_kor>
+        <add_kor>서울특별시 성동구 홍익동 102</add_kor>
+        <add_kor_road>서울특별시 성동구 마장로 205</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>왕십리도선동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-2295-1241</tel>
+        <latitude>37566662</latitude>
+        <longitude>127032777</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0162</main_key>
+        <gov_code>1332877</gov_code>
+        <name_kor>용답파출소</name_kor>
+        <add_kor>서울특별시 성동구 용답동 83-5</add_kor>
+        <add_kor_road>서울특별시 성동구 용답중앙길 49</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>용답동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-2245-0189</tel>
+        <latitude>37564742</latitude>
+        <longitude>127051744</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0163</main_key>
+        <gov_code>1334769</gov_code>
+        <name_kor>응봉파출소</name_kor>
+        <add_kor>서울특별시 성동구 응봉동 275</add_kor>
+        <add_kor_road>서울특별시 성동구 독서당로 373</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>응봉동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-2293-0306</tel>
+        <latitude>37550158</latitude>
+        <longitude>127029499</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0164</main_key>
+        <gov_code>1331425</gov_code>
+        <name_kor>한양지구대</name_kor>
+        <add_kor>서울특별시 성동구 행당동 11-7</add_kor>
+        <add_kor_road>서울특별시 성동구 사근동길 5</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>사근동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-2292-5975</tel>
+        <latitude>37560253</latitude>
+        <longitude>127041760</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0165</main_key>
+        <gov_code>1334766</gov_code>
+        <name_kor>행당파출소</name_kor>
+        <add_kor>서울특별시 성동구 행당2동 317-5</add_kor>
+        <add_kor_road>서울특별시 성동구 행당로 89</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>행당2동</h_kor_dong>
+        <h_kor_gu>성동구</h_kor_gu>
+        <tel>02-2292-1812</tel>
+        <latitude>37557873</latitude>
+        <longitude>127030922</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0166</main_key>
+        <gov_code>1329377</gov_code>
+        <name_kor>서울성북경찰서</name_kor>
+        <add_kor>서울특별시 성북구 삼선동5가 301</add_kor>
+        <add_kor_road>서울특별시 성북구 보문로 170</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>삼선동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37589778</latitude>
+        <longitude>127016589</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0167</main_key>
+        <gov_code>1331408</gov_code>
+        <name_kor>길음지구대</name_kor>
+        <add_kor>서울특별시 성북구 길음동 1281-5</add_kor>
+        <add_kor_road>서울특별시 성북구 삼양로13길 51</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>길음1동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-919-9723</tel>
+        <latitude>37610560</latitude>
+        <longitude>127019262</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0168</main_key>
+        <gov_code>1331405</gov_code>
+        <name_kor>돈암지구대</name_kor>
+        <add_kor>서울특별시 성북구 돈암동 630-5</add_kor>
+        <add_kor_road>서울특별시 성북구 아리랑로5길 54 </add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>돈암2동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-926-2236</tel>
+        <latitude>37597287</latitude>
+        <longitude>127012384</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0169</main_key>
+        <gov_code>1332547</gov_code>
+        <name_kor>성북파출소</name_kor>
+        <add_kor>서울특별시 성북구 성북동 66-1</add_kor>
+        <add_kor_road>서울특별시 성북구 성북로 94</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>성북동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-762-0103</tel>
+        <latitude>37593838</latitude>
+        <longitude>126998364</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0170</main_key>
+        <gov_code>1331406</gov_code>
+        <name_kor>안암지구대</name_kor>
+        <add_kor>서울특별시 성북구 보문동3가 1-1</add_kor>
+        <add_kor_road>서울특별시 성북구 지봉로21길 45</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>보문동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-926-9520</tel>
+        <latitude>37586745</latitude>
+        <longitude>127016533</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0171</main_key>
+        <gov_code>1334750</gov_code>
+        <name_kor>정릉2파출소</name_kor>
+        <add_kor>서울특별시 성북구 정릉동 966-174</add_kor>
+        <add_kor_road>서울특별시 성북구 정릉로26길 6</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>정릉2동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-914-0730</tel>
+        <latitude>37604523</latitude>
+        <longitude>127010705</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0172</main_key>
+        <gov_code>1334749</gov_code>
+        <name_kor>정릉파출소</name_kor>
+        <add_kor>서울특별시 성북구 정릉4동 239-3</add_kor>
+        <add_kor_road>서울특별시 성북구 솔샘로 111</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>정릉4동</h_kor_dong>
+        <h_kor_gu>성북구</h_kor_gu>
+        <tel>02-919-9757</tel>
+        <latitude>37616033</latitude>
+        <longitude>127008588</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0173</main_key>
+        <gov_code>1329860</gov_code>
+        <name_kor>서울송파경찰서</name_kor>
+        <add_kor>서울특별시 송파구 가락본동 9</add_kor>
+        <add_kor_road>서울특별시 송파구 중대로 221</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>가락본동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37501694</latitude>
+        <longitude>127127248</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0174</main_key>
+        <gov_code>1331507</gov_code>
+        <name_kor>가락지구대</name_kor>
+        <add_kor>서울특별시 송파구 가락동 37</add_kor>
+        <add_kor_road>서울특별시 송파구 중대로 179</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>가락본동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6304</tel>
+        <latitude>37498334</latitude>
+        <longitude>127124572</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0175</main_key>
+        <gov_code>1334821</gov_code>
+        <name_kor>거여파출소</name_kor>
+        <add_kor>서울특별시 송파구 거여동 178-2</add_kor>
+        <add_kor_road>서울특별시 송파구 거마로10길 9</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>거여2동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6307</tel>
+        <latitude>37495782</latitude>
+        <longitude>127144403</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0176</main_key>
+        <gov_code>1334819</gov_code>
+        <name_kor>마천파출소</name_kor>
+        <add_kor>서울특별시 송파구 마천2동 127-8</add_kor>
+        <add_kor_road>서울특별시 송파구 마천로41길 8</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>마천2동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6306</tel>
+        <latitude>37497011</latitude>
+        <longitude>127148190</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0177</main_key>
+        <gov_code>1335587</gov_code>
+        <name_kor>문정지구대</name_kor>
+        <add_kor>서울특별시 송파구 장지동 600-35</add_kor>
+        <add_kor_road>서울특별시 송파구 새말로15길 9</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>장지동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6305</tel>
+        <latitude>37470473</latitude>
+        <longitude>127127364</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0178</main_key>
+        <gov_code>1331505</gov_code>
+        <name_kor>방이지구대</name_kor>
+        <add_kor>서울특별시 송파구 방이동 204-8</add_kor>
+        <add_kor_road>서울특별시 송파구 양재대로71길 5-6</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방이1동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6301</tel>
+        <latitude>37510208</latitude>
+        <longitude>127125733</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0179</main_key>
+        <gov_code>1332690</gov_code>
+        <name_kor>삼전지구대</name_kor>
+        <add_kor>서울특별시 송파구 삼전동 62-3</add_kor>
+        <add_kor_road>서울특별시 송파구 백제고분로 238</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>삼전동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6303</tel>
+        <latitude>37502637</latitude>
+        <longitude>127092734</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0180</main_key>
+        <gov_code>1334817</gov_code>
+        <name_kor>신천파출소</name_kor>
+        <add_kor>서울특별시 송파구 신천동 20-5</add_kor>
+        <add_kor_road>서울특별시 송파구 올림픽로35길 12</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>잠실4동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6310</tel>
+        <latitude>37520098</latitude>
+        <longitude>127112387</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0181</main_key>
+        <gov_code>1334820</gov_code>
+        <name_kor>오금파출소</name_kor>
+        <add_kor>서울특별시 송파구 오금동 41-19</add_kor>
+        <add_kor_road>서울특별시 송파구 마천로8길 17</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>오금동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6309</tel>
+        <latitude>37506863</latitude>
+        <longitude>127128087</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0182</main_key>
+        <gov_code>1332691</gov_code>
+        <name_kor>잠실지구대</name_kor>
+        <add_kor>서울특별시 송파구 잠실동 19-5</add_kor>
+        <add_kor_road>서울특별시 송파구 올림픽로 101</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>잠실2동</h_kor_dong>
+        <h_kor_gu>송파구</h_kor_gu>
+        <tel>02-3402-6302</tel>
+        <latitude>37512061</latitude>
+        <longitude>127082127</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0262</main_key>
+        <gov_code>1332617</gov_code>
+        <name_kor>서울혜화경찰서</name_kor>
+        <add_kor>서울특별시 종로구 인의동 48-57</add_kor>
+        <add_kor_road>서울특별시 종로구 창경궁로 112-16</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종로1.2.3.4가동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37571967</latitude>
+        <longitude>126998957</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0001</main_key>
+        <gov_code>1320252</gov_code>
+        <name_kor>서울특별시지방경찰청</name_kor>
+        <add_kor>서울특별시 종로구 내자동 201-11</add_kor>
+        <add_kor_road>서울특별시 종로구 사직로8길 31</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>사직동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37574836</latitude>
+        <longitude>126971966</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0002</main_key>
+        <gov_code>1329667</gov_code>
+        <name_kor>서울강남경찰서</name_kor>
+        <add_kor>서울특별시 강남구 삼성동 171-2</add_kor>
+        <add_kor_road>서울특별시 강남구 테헤란로113길 12</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>삼성1동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37511192</latitude>
+        <longitude>127066555</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0003</main_key>
+        <gov_code>1334794</gov_code>
+        <name_kor>논현1파출소</name_kor>
+        <add_kor>서울특별시 강남구 논현1동 58-13</add_kor>
+        <add_kor_road>서울특별시 강남구 학동로17길 13</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>논현1동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-544-5555</tel>
+        <latitude>37513829</latitude>
+        <longitude>127029271</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0004</main_key>
+        <gov_code>1334795</gov_code>
+        <name_kor>논현2파출소</name_kor>
+        <add_kor>서울특별시 강남구 논현2동 89-13</add_kor>
+        <add_kor_road>서울특별시 강남구 학동로 227</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>논현2동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-543-0112</tel>
+        <latitude>37515168</latitude>
+        <longitude>127033830</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0005</main_key>
+        <gov_code>1334790</gov_code>
+        <name_kor>삼성1파출소</name_kor>
+        <add_kor>서울특별시 강남구 삼성1동 107-3</add_kor>
+        <add_kor_road>서울특별시 강남구 영동대로112길 4</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>삼성1동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-511-5049</tel>
+        <latitude>37514869</latitude>
+        <longitude>127060532</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0006</main_key>
+        <gov_code>1334791</gov_code>
+        <name_kor>삼성2파출소</name_kor>
+        <add_kor>서울특별시 강남구 삼성2동 114-6</add_kor>
+        <add_kor_road>서울특별시 강남구 선릉로 626</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>삼성2동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-562-1628</tel>
+        <latitude>37511253</latitude>
+        <longitude>127048062</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0007</main_key>
+        <gov_code>1334793</gov_code>
+        <name_kor>신사파출소</name_kor>
+        <add_kor>서울특별시 강남구 신사동 539-12</add_kor>
+        <add_kor_road>서울특별시 강남구 도산대로 143</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신사동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-511-5087</tel>
+        <latitude>37518331</latitude>
+        <longitude>127024119</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0008</main_key>
+        <gov_code>1334796</gov_code>
+        <name_kor>압구정파출소</name_kor>
+        <add_kor>서울특별시 강남구 압구정동 483</add_kor>
+        <add_kor_road>서울특별시 강남구 압구정로 311</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>압구정동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-542-1103</tel>
+        <latitude>37529310</latitude>
+        <longitude>127035597</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0009</main_key>
+        <gov_code>1332362</gov_code>
+        <name_kor>역삼지구대</name_kor>
+        <add_kor>서울특별시 강남구 역삼1동 687-10</add_kor>
+        <add_kor_road>서울특별시 강남구 언주로108길 20</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>역삼1동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-562-1623</tel>
+        <latitude>37508291</latitude>
+        <longitude>127041003</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0010</main_key>
+        <gov_code>1334792</gov_code>
+        <name_kor>청담파출소</name_kor>
+        <add_kor>서울특별시 강남구 청담동 66-3</add_kor>
+        <add_kor_road>서울특별시 강남구 학동로95길 19</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>청담동</h_kor_dong>
+        <h_kor_gu>강남구</h_kor_gu>
+        <tel>02-512-0112</tel>
+        <latitude>37520749</latitude>
+        <longitude>127054243</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0011</main_key>
+        <gov_code>1329742</gov_code>
+        <name_kor>서울강동경찰서</name_kor>
+        <add_kor>서울특별시 강동구 성내동 541-1</add_kor>
+        <add_kor_road>서울특별시 강동구 성내로 33</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>성내1동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37528601</latitude>
+        <longitude>127126352</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0012</main_key>
+        <gov_code>1336176</gov_code>
+        <name_kor>강일파출소</name_kor>
+        <add_kor>서울특별시 강동구 강일동 678</add_kor>
+        <add_kor_road>서울특별시 강동구 아리수로91길 20</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>강일동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-426-0112</tel>
+        <latitude>37565050</latitude>
+        <longitude>127173800</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0013</main_key>
+        <gov_code>1336177</gov_code>
+        <name_kor>고덕파출소</name_kor>
+        <add_kor>서울특별시 강동구 고덕동 494-6</add_kor>
+        <add_kor_road>서울특별시 강동구 고덕로61길 61</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>고덕1동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-481-0113</tel>
+        <latitude>37558015</latitude>
+        <longitude>127150339</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0014</main_key>
+        <gov_code>1331482</gov_code>
+        <name_kor>길동지구대</name_kor>
+        <add_kor>서울특별시 강동구 길동 228-6</add_kor>
+        <add_kor_road>서울특별시 강동구 천호대로187길 6</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>길동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-478-0110</tel>
+        <latitude>37534627</latitude>
+        <longitude>127142611</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0015</main_key>
+        <gov_code>1334804</gov_code>
+        <name_kor>둔촌파출소</name_kor>
+        <add_kor>서울특별시 강동구 둔촌동 115</add_kor>
+        <add_kor_road>서울특별시 강동구 진황도로 239</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>둔촌2동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-477-0116</tel>
+        <latitude>37525297</latitude>
+        <longitude>127145640</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0016</main_key>
+        <gov_code>1334805</gov_code>
+        <name_kor>명일파출소</name_kor>
+        <add_kor>서울특별시 강동구 명일동 47-20</add_kor>
+        <add_kor_road>서울특별시 강동구 동남로 895</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>명일2동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-442-0112</tel>
+        <latitude>37553602</latitude>
+        <longitude>127156073</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0017</main_key>
+        <gov_code>1331481</gov_code>
+        <name_kor>성내지구대</name_kor>
+        <add_kor>서울특별시 강동구 성내동 541-1</add_kor>
+        <add_kor_road>서울특별시 강동구 성내로 33</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>성내1동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-478-0880</tel>
+        <latitude>37528601</latitude>
+        <longitude>127126352</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0018</main_key>
+        <gov_code>1331483</gov_code>
+        <name_kor>암사지구대</name_kor>
+        <add_kor>서울특별시 강동구 암사동 414-2</add_kor>
+        <add_kor_road>서울특별시 강동구 고덕로 137</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>암사3동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-427-0112</tel>
+        <latitude>37556367</latitude>
+        <longitude>127141969</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0019</main_key>
+        <gov_code>1331480</gov_code>
+        <name_kor>천호지구대</name_kor>
+        <add_kor>서울특별시 강동구 천호동 337-121</add_kor>
+        <add_kor_road>서울특별시 강동구 구천면로 141</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>천호2동</h_kor_dong>
+        <h_kor_gu>강동구</h_kor_gu>
+        <tel>02-478-0112</tel>
+        <latitude>37542538</latitude>
+        <longitude>127120757</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0020</main_key>
+        <gov_code>1332662</gov_code>
+        <name_kor>서울강북경찰서</name_kor>
+        <add_kor>서울특별시 강북구 번1동 415-15</add_kor>
+        <add_kor_road>서울특별시 강북구 오패산로 406</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>번1동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37637197</latitude>
+        <longitude>127027304</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0021</main_key>
+        <gov_code>1332673</gov_code>
+        <name_kor>미아지구대</name_kor>
+        <add_kor>서울특별시 강북구 미아동 327-1</add_kor>
+        <add_kor_road>서울특별시 강북구 도봉로 127</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>송천동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4801</tel>
+        <latitude>37620116</latitude>
+        <longitude>127028250</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0022</main_key>
+        <gov_code>1334782</gov_code>
+        <name_kor>번3파출소</name_kor>
+        <add_kor>서울특별시 강북구 번3동 242-6</add_kor>
+        <add_kor_road>서울특별시 강북구 월계로 227</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>번3동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4808</tel>
+        <latitude>37623586</latitude>
+        <longitude>127048114</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0023</main_key>
+        <gov_code>1334781</gov_code>
+        <name_kor>번동파출소</name_kor>
+        <add_kor>서울특별시 강북구 번1동 410-23</add_kor>
+        <add_kor_road>서울특별시 강북구 한천로 969</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>번1동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4807</tel>
+        <latitude>37635937</latitude>
+        <longitude>127032563</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0024</main_key>
+        <gov_code>1336184</gov_code>
+        <name_kor>삼양파출소</name_kor>
+        <add_kor>서울특별시 강북구 미아동 867-128</add_kor>
+        <add_kor_road>서울특별시 강북구 삼양로 239-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>삼양동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4102</tel>
+        <latitude>37624777</latitude>
+        <longitude>127018197</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0025</main_key>
+        <gov_code>1332674</gov_code>
+        <name_kor>솔샘지구대</name_kor>
+        <add_kor>서울특별시 강북구 미아동 860-146</add_kor>
+        <add_kor_road>서울특별시 강북구 오현로 4</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>송중동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4802</tel>
+        <latitude>37616288</latitude>
+        <longitude>127030387</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0026</main_key>
+        <gov_code>1334779</gov_code>
+        <name_kor>수유1파출소</name_kor>
+        <add_kor>서울특별시 강북구 수유동 605-409</add_kor>
+        <add_kor_road>서울특별시 강북구 삼양로 305</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>수유1동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4803</tel>
+        <latitude>37630646</latitude>
+        <longitude>127017555</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0027</main_key>
+        <gov_code>1334784</gov_code>
+        <name_kor>수유2파출소</name_kor>
+        <add_kor>서울특별시 강북구 수유2동 385-5</add_kor>
+        <add_kor_road>서울특별시 강북구 삼각산로 115</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>수유2동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4804</tel>
+        <latitude>37641104</latitude>
+        <longitude>127017059</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0028</main_key>
+        <gov_code>1334783</gov_code>
+        <name_kor>수유3파출소</name_kor>
+        <add_kor>서울특별시 강북구 수유3동 166-75</add_kor>
+        <add_kor_road>서울특별시 강북구 한천로150길 76</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>수유3동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4805</tel>
+        <latitude>37644294</latitude>
+        <longitude>127026569</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0029</main_key>
+        <gov_code>1334780</gov_code>
+        <name_kor>인수파출소</name_kor>
+        <add_kor>서울특별시 강북구 수유동 605-188</add_kor>
+        <add_kor_road>서울특별시 강북구 수유로 49</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>인수동</h_kor_dong>
+        <h_kor_gu>강북구</h_kor_gu>
+        <tel>02-944-4806</tel>
+        <latitude>37635220</latitude>
+        <longitude>127019108</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0030</main_key>
+        <gov_code>1329716</gov_code>
+        <name_kor>서울강서경찰서</name_kor>
+        <add_kor>서울특별시 강서구 화곡6동 980-27</add_kor>
+        <add_kor_road>서울특별시 강서구 화곡로 308</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>화곡6동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37551362</latitude>
+        <longitude>126850279</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0031</main_key>
+        <gov_code>1331477</gov_code>
+        <name_kor>가양지구대</name_kor>
+        <add_kor>서울특별시 강서구 등촌3동 706-1</add_kor>
+        <add_kor_road>서울특별시 강서구 화곡로65길 63</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>등촌3동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-3665-9112</tel>
+        <latitude>37559209</latitude>
+        <longitude>126850105</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0032</main_key>
+        <gov_code>1332880</gov_code>
+        <name_kor>곰달래지구대</name_kor>
+        <add_kor>서울특별시 강서구 화곡4동 776-4</add_kor>
+        <add_kor_road>서울특별시 강서구 곰달래로59길 12</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>화곡4동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2643-7994</tel>
+        <latitude>37532870</latitude>
+        <longitude>126863125</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0033</main_key>
+        <gov_code>1331475</gov_code>
+        <name_kor>공항지구대</name_kor>
+        <add_kor>서울특별시 강서구 방화동 620-111</add_kor>
+        <add_kor_road>서울특별시 강서구 방화동로 5</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방화2동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2662-0372</tel>
+        <latitude>37562336</latitude>
+        <longitude>126808409</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0034</main_key>
+        <gov_code>1331476</gov_code>
+        <name_kor>까치산지구대</name_kor>
+        <add_kor>서울특별시 강서구 화곡동 901-15</add_kor>
+        <add_kor_road>서울특별시 강서구 강서로7길 39</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>화곡1동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2604-5053</tel>
+        <latitude>37529300</latitude>
+        <longitude>126845793</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0035</main_key>
+        <gov_code>1334801</gov_code>
+        <name_kor>등촌2파출소</name_kor>
+        <add_kor>서울특별시 강서구 등촌2동 513-6</add_kor>
+        <add_kor_road>서울특별시 강서구 등촌로 167</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>등촌2동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2651-0330</tel>
+        <latitude>37544768</latitude>
+        <longitude>126861856</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0036</main_key>
+        <gov_code>1334802</gov_code>
+        <name_kor>발산파출소</name_kor>
+        <add_kor>서울특별시 강서구 내발산동 748-5</add_kor>
+        <add_kor_road>서울특별시 강서구 수명로2길 46</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>발산1동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2662-0330</tel>
+        <latitude>37549365</latitude>
+        <longitude>126826031</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0037</main_key>
+        <gov_code>1332881</gov_code>
+        <name_kor>방화3파출소</name_kor>
+        <add_kor>서울특별시 강서구 방화3동 822</add_kor>
+        <add_kor_road>서울특별시 강서구 금낭화로26길 16</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방화3동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2663-1121</tel>
+        <latitude>37579759</latitude>
+        <longitude>126814671</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0038</main_key>
+        <gov_code>1334800</gov_code>
+        <name_kor>염창파출소</name_kor>
+        <add_kor>서울특별시 강서구 염창동 272-28</add_kor>
+        <add_kor_road>서울특별시 강서구 공항대로59다길 80</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>염창동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-3665-0660</tel>
+        <latitude>37551211</latitude>
+        <longitude>126867400</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0039</main_key>
+        <gov_code>1334803</gov_code>
+        <name_kor>화곡3파출소</name_kor>
+        <add_kor>서울특별시 강서구 화곡동 1019</add_kor>
+        <add_kor_road>서울특별시 강서구 강서로45다길 71</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>화곡3동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2604-2133</tel>
+        <latitude>37544640</latitude>
+        <longitude>126835150</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0040</main_key>
+        <gov_code>1335255</gov_code>
+        <name_kor>화곡지구대</name_kor>
+        <add_kor>서울특별시 강서구 화곡6동 980-15</add_kor>
+        <add_kor_road>서울특별시 강서구 화곡로 310</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>화곡6동</h_kor_dong>
+        <h_kor_gu>강서구</h_kor_gu>
+        <tel>02-2604-0087</tel>
+        <latitude>37551669</latitude>
+        <longitude>126849932</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0041</main_key>
+        <gov_code>1329692</gov_code>
+        <name_kor>서울관악경찰서</name_kor>
+        <add_kor>서울특별시 관악구 청룡동 산177-3</add_kor>
+        <add_kor_road>서울특별시 관악구 관악로5길 33 </add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>청룡동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37474394</latitude>
+        <longitude>126951348</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0042</main_key>
+        <gov_code>1331471</gov_code>
+        <name_kor>관악산지구대</name_kor>
+        <add_kor>서울특별시 관악구 신림동 808-402</add_kor>
+        <add_kor_road>서울특별시 관악구 대학길 48</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>대학동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0840</tel>
+        <latitude>37473796</latitude>
+        <longitude>126935184</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0043</main_key>
+        <gov_code>1331469</gov_code>
+        <name_kor>낙성대지구대</name_kor>
+        <add_kor>서울특별시 관악구 낙성대동 1662-36</add_kor>
+        <add_kor_road>서울특별시 관악구 봉천로 540</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>낙성대동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0820</tel>
+        <latitude>37478238</latitude>
+        <longitude>126959466</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0044</main_key>
+        <gov_code>1334797</gov_code>
+        <name_kor>난우파출소</name_kor>
+        <add_kor>서울특별시 관악구 신림동 1735-6</add_kor>
+        <add_kor_road>서울특별시 관악구 난곡로 64</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>난향동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0860</tel>
+        <latitude>37461085</latitude>
+        <longitude>126919243</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0045</main_key>
+        <gov_code>1332688</gov_code>
+        <name_kor>남현파출소</name_kor>
+        <add_kor>서울특별시 관악구 남현동 1083-1</add_kor>
+        <add_kor_road>서울특별시 관악구 남현1가길 29</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>남현동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0890</tel>
+        <latitude>37474581</latitude>
+        <longitude>126976814</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0046</main_key>
+        <gov_code>1331468</gov_code>
+        <name_kor>당곡지구대</name_kor>
+        <add_kor>서울특별시 관악구 봉천동 961-16</add_kor>
+        <add_kor_road>서울특별시 관악구 남부순환로191길 12</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>은천동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0810</tel>
+        <latitude>37485967</latitude>
+        <longitude>126934352</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0047</main_key>
+        <gov_code>1334798</gov_code>
+        <name_kor>미성파출소</name_kor>
+        <add_kor>서울특별시 관악구 신림동 1566-34</add_kor>
+        <add_kor_road>서울특별시 관악구 난곡로64가길 31</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>미성동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0870</tel>
+        <latitude>37479885</latitude>
+        <longitude>126915601</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0048</main_key>
+        <gov_code>1331472</gov_code>
+        <name_kor>봉천지구대</name_kor>
+        <add_kor>서울특별시 관악구 봉천동 622-26</add_kor>
+        <add_kor_road>서울특별시 관악구 은천로 93</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>은천동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0850</tel>
+        <latitude>37486949</latitude>
+        <longitude>126944689</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0049</main_key>
+        <gov_code>1331470</gov_code>
+        <name_kor>신림지구대</name_kor>
+        <add_kor>서울특별시 관악구 신림동 10-484</add_kor>
+        <add_kor_road>서울특별시 관악구 남부순환로188길 12</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>서원동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0830</tel>
+        <latitude>37483977</latitude>
+        <longitude>126933305</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0050</main_key>
+        <gov_code>1334799</gov_code>
+        <name_kor>신사파출소</name_kor>
+        <add_kor>서울특별시 관악구 신림동 517-5</add_kor>
+        <add_kor_road>서울특별시 관악구 신사로 106</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신사동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>02-870-0880</tel>
+        <latitude>37487237</latitude>
+        <longitude>126914182</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0051</main_key>
+        <gov_code>1332648</gov_code>
+        <name_kor>서울광진경찰서</name_kor>
+        <add_kor>서울특별시 광진구 구의동 254-32</add_kor>
+        <add_kor_road>서울특별시 광진구 광나루로 447</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>능동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37542791</latitude>
+        <longitude>127083815</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0052</main_key>
+        <gov_code>1332657</gov_code>
+        <name_kor>광나루지구대</name_kor>
+        <add_kor>서울특별시 광진구 광장동 231-1</add_kor>
+        <add_kor_road>서울특별시 광진구 아차산로 567</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>광장동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-457-0112</tel>
+        <latitude>37544417</latitude>
+        <longitude>127103302</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0053</main_key>
+        <gov_code>1334776</gov_code>
+        <name_kor>자양1파출소</name_kor>
+        <add_kor>서울특별시 광진구 자양동 799-2</add_kor>
+        <add_kor_road>서울특별시 광진구 자양번영로 80</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>자양1동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-444-4112</tel>
+        <latitude>37536582</latitude>
+        <longitude>127076908</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0054</main_key>
+        <gov_code>1334241</gov_code>
+        <name_kor>자양4파출소</name_kor>
+        <add_kor>서울특별시 광진구 자양4동 55-12</add_kor>
+        <add_kor_road>서울특별시 광진구 뚝섬로22가길 43</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>자양4동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-463-0113</tel>
+        <latitude>37535149</latitude>
+        <longitude>127063620</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0055</main_key>
+        <gov_code>1334775</gov_code>
+        <name_kor>자양파출소</name_kor>
+        <add_kor>서울특별시 광진구 자양3동 553-632</add_kor>
+        <add_kor_road>서울특별시 광진구 뚝섬로36길 9</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>자양3동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-447-1112</tel>
+        <latitude>37533807</latitude>
+        <longitude>127071603</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0056</main_key>
+        <gov_code>1335514</gov_code>
+        <name_kor>중곡1파출소</name_kor>
+        <add_kor>서울특별시 광진구 중곡동 165-6</add_kor>
+        <add_kor_road>서울특별시 광진구 능동로 385</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중곡1동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-447-0113</tel>
+        <latitude>37563684</latitude>
+        <longitude>127082772</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0057</main_key>
+        <gov_code>1334774</gov_code>
+        <name_kor>중곡2파출소</name_kor>
+        <add_kor>서울특별시 광진구 중곡동 47-33</add_kor>
+        <add_kor_road>서울특별시 광진구 능동로 346</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중곡2동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-444-8113</tel>
+        <latitude>37560178</latitude>
+        <longitude>127081472</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0058</main_key>
+        <gov_code>1335515</gov_code>
+        <name_kor>중곡3파출소</name_kor>
+        <add_kor>서울특별시 광진구 중곡3동 684</add_kor>
+        <add_kor_road>서울특별시 광진구 동일로76가길 28</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중곡3동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-3409-0112</tel>
+        <latitude>37568753</latitude>
+        <longitude>127080131</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0059</main_key>
+        <gov_code>1334242</gov_code>
+        <name_kor>중곡4파출소</name_kor>
+        <add_kor>서울특별시 광진구 중곡4동 18-144</add_kor>
+        <add_kor_road>서울특별시 광진구 용마산로24길 7</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중곡4동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-457-1112</tel>
+        <latitude>37565282</latitude>
+        <longitude>127087088</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0060</main_key>
+        <gov_code>1332878</gov_code>
+        <name_kor>화양지구대</name_kor>
+        <add_kor>서울특별시 광진구 화양동 122</add_kor>
+        <add_kor_road>서울특별시 광진구 능동로17길 39</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>화양동</h_kor_dong>
+        <h_kor_gu>광진구</h_kor_gu>
+        <tel>02-469-1137</tel>
+        <latitude>37546405</latitude>
+        <longitude>127071326</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0061</main_key>
+        <gov_code>1329787</gov_code>
+        <name_kor>서울구로경찰서</name_kor>
+        <add_kor>서울특별시 구로구 구로동 436</add_kor>
+        <add_kor_road>서울특별시 구로구 가마산로 235</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>구로2동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37494744</latitude>
+        <longitude>126886587</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0070</main_key>
+        <gov_code>1334785</gov_code>
+        <name_kor>가산파출소</name_kor>
+        <add_kor>서울특별시 금천구 가산동 139-2</add_kor>
+        <add_kor_road>서울특별시 금천구 벚꽃로56길 174</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>가산동</h_kor_dong>
+        <h_kor_gu>금천구</h_kor_gu>
+        <tel>02-864-0113</tel>
+        <latitude>37479887</latitude>
+        <longitude>126888045</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0071</main_key>
+        <gov_code>1335591</gov_code>
+        <name_kor>금천파출소</name_kor>
+        <add_kor>서울특별시 금천구 시흥동 995-2</add_kor>
+        <add_kor_road>서울특별시 금천구 시흥대로57길 45</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>시흥1동</h_kor_dong>
+        <h_kor_gu>금천구</h_kor_gu>
+        <tel>02-802-0113</tel>
+        <latitude>37454193</latitude>
+        <longitude>126899818</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0072</main_key>
+        <gov_code>1334786</gov_code>
+        <name_kor>독산파출소</name_kor>
+        <add_kor>서울특별시 금천구 독산동 293-14</add_kor>
+        <add_kor_road>서울특별시 금천구 벚꽃로10길 89</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>독산1동</h_kor_dong>
+        <h_kor_gu>금천구</h_kor_gu>
+        <tel>02-807-0113</tel>
+        <latitude>37467466</latitude>
+        <longitude>126894429</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0073</main_key>
+        <gov_code>1332683</gov_code>
+        <name_kor>문성지구대</name_kor>
+        <add_kor>서울특별시 금천구 독산4동 191-2</add_kor>
+        <add_kor_road>서울특별시 금천구 독산로76길 20</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>독산4동</h_kor_dong>
+        <h_kor_gu>금천구</h_kor_gu>
+        <tel>02-855-0112</tel>
+        <latitude>37469489</latitude>
+        <longitude>126903427</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0074</main_key>
+        <gov_code>1332685</gov_code>
+        <name_kor>백산지구대</name_kor>
+        <add_kor>서울특별시 금천구 시흥4동 3-83</add_kor>
+        <add_kor_road>서울특별시 금천구 독산로50길 105</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>시흥4동</h_kor_dong>
+        <h_kor_gu>금천구</h_kor_gu>
+        <tel>02-805-0112</tel>
+        <latitude>37462276</latitude>
+        <longitude>126910156</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0075</main_key>
+        <gov_code>1329294</gov_code>
+        <name_kor>서울남대문경찰서</name_kor>
+        <add_kor>서울특별시 중구 남대문로5가 561</add_kor>
+        <add_kor_road>서울특별시 중구 한강대로 410</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>회현동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37554906</latitude>
+        <longitude>126973620</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0076</main_key>
+        <gov_code>1329304</gov_code>
+        <name_kor>남대문파출소</name_kor>
+        <add_kor>서울특별시 중구 남창동 51-1</add_kor>
+        <add_kor_road>서울특별시 중구 남대문시장4길 28-16</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>회현동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-778-7041</tel>
+        <latitude>37559153</latitude>
+        <longitude>126976283</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0077</main_key>
+        <gov_code>1332948</gov_code>
+        <name_kor>명동파출소</name_kor>
+        <add_kor>서울특별시 중구 명동2가 50-13</add_kor>
+        <add_kor_road>서울특별시 중구 명동길 32</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>명동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-771-0268</tel>
+        <latitude>37563550</latitude>
+        <longitude>126983959</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0078</main_key>
+        <gov_code>1334733</gov_code>
+        <name_kor>서소문파출소</name_kor>
+        <add_kor>서울특별시 중구 서소문동 24</add_kor>
+        <add_kor_road>서울특별시 중구 서소문로 131-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>소공동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-777-1942</tel>
+        <latitude>37563785</latitude>
+        <longitude>126975457</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0079</main_key>
+        <gov_code>1334236</gov_code>
+        <name_kor>서울역파출소</name_kor>
+        <add_kor>서울특별시 중구 봉래동2가 122-17</add_kor>
+        <add_kor_road>서울특별시 중구 통일로 13</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>회현동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-778-1875</tel>
+        <latitude>37556852</latitude>
+        <longitude>126971571</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0080</main_key>
+        <gov_code>1332875</gov_code>
+        <name_kor>중림파출소</name_kor>
+        <add_kor>서울특별시 중구 중림동 273-1</add_kor>
+        <add_kor_road>서울특별시 중구 중림로 36</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중림동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-363-6344</tel>
+        <latitude>37557893</latitude>
+        <longitude>126967184</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0081</main_key>
+        <gov_code>1334732</gov_code>
+        <name_kor>태평로파출소</name_kor>
+        <add_kor>서울특별시 중구 다동 48</add_kor>
+        <add_kor_road>서울특별시 중구 다동길 11</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>명동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-777-2593</tel>
+        <latitude>37567964</latitude>
+        <longitude>126979971</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0082</main_key>
+        <gov_code>1334237</gov_code>
+        <name_kor>회현파출소</name_kor>
+        <add_kor>서울특별시 중구 회현동1가 194-15</add_kor>
+        <add_kor_road>서울특별시 중구 퇴계로 52</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>회현동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-778-3390</tel>
+        <latitude>37558366</latitude>
+        <longitude>126978609</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0083</main_key>
+        <gov_code>1329882</gov_code>
+        <name_kor>서울노원경찰서</name_kor>
+        <add_kor>서울특별시 노원구 하계동 250</add_kor>
+        <add_kor_road>서울특별시 노원구 노원로 283</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>하계1동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37642138</latitude>
+        <longitude>127071047</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0084</main_key>
+        <gov_code>1332886</gov_code>
+        <name_kor>노원역지구대</name_kor>
+        <add_kor>서울특별시 노원구 상계6.7동 720-5</add_kor>
+        <add_kor_road>서울특별시 노원구 노원로 431</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>상계6.7동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0304</tel>
+        <latitude>37654966</latitude>
+        <longitude>127066900</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0085</main_key>
+        <gov_code>1334823</gov_code>
+        <name_kor>당고개파출소</name_kor>
+        <add_kor>서울특별시 노원구 상계동 172-1</add_kor>
+        <add_kor_road>서울특별시 노원구 상계로 221</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>상계3.4동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0307</tel>
+        <latitude>37663807</latitude>
+        <longitude>127075263</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0086</main_key>
+        <gov_code>1332692</gov_code>
+        <name_kor>당현지구대</name_kor>
+        <add_kor>서울특별시 노원구 중계2.3동 511-1</add_kor>
+        <add_kor_road>서울특별시 노원구 노원로17길 64</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중계2.3동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0301</tel>
+        <latitude>37642090</latitude>
+        <longitude>127068714</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0087</main_key>
+        <gov_code>1335589</gov_code>
+        <name_kor>마들지구대</name_kor>
+        <add_kor>서울특별시 노원구 상계9동 681</add_kor>
+        <add_kor_road>서울특별시 노원구 한글비석로 489</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>상계9동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0306</tel>
+        <latitude>37664512</latitude>
+        <longitude>127063593</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0088</main_key>
+        <gov_code>1335588</gov_code>
+        <name_kor>불암지구대</name_kor>
+        <add_kor>서울특별시 노원구 중계동 359-6</add_kor>
+        <add_kor_road>서울특별시 노원구 한글비석로 277</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>중계1동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0305</tel>
+        <latitude>37652396</latitude>
+        <longitude>127077324</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0089</main_key>
+        <gov_code>1334825</gov_code>
+        <name_kor>상계1파출소</name_kor>
+        <add_kor>서울특별시 노원구 상계동 1261</add_kor>
+        <add_kor_road>서울특별시 노원구 동일로 1693</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>상계1동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0308</tel>
+        <latitude>37679636</latitude>
+        <longitude>127055018</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0090</main_key>
+        <gov_code>1331511</gov_code>
+        <name_kor>월계지구대</name_kor>
+        <add_kor>서울특별시 노원구 월계2동 320-4</add_kor>
+        <add_kor_road>서울특별시 노원구 월계로55길 58</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>월계3동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0302</tel>
+        <latitude>37632444</latitude>
+        <longitude>127050738</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0091</main_key>
+        <gov_code>1331510</gov_code>
+        <name_kor>화랑지구대</name_kor>
+        <add_kor>서울특별시 노원구 공릉1.3동 567-18</add_kor>
+        <add_kor_road>서울특별시 노원구 동일로 1034</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>공릉1동</h_kor_dong>
+        <h_kor_gu>노원구</h_kor_gu>
+        <tel>02-2092-0303</tel>
+        <latitude>37622557</latitude>
+        <longitude>127074569</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0092</main_key>
+        <gov_code>1329939</gov_code>
+        <name_kor>서울도봉경찰서</name_kor>
+        <add_kor>서울특별시 도봉구 노해로 403</add_kor>
+        <add_kor_road>서울특별시 도봉구 노해로 403</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>창4동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37653701</latitude>
+        <longitude>127052802</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0093</main_key>
+        <gov_code>1334830</gov_code>
+        <name_kor>도봉1파출소</name_kor>
+        <add_kor>서울특별시 도봉구 도봉1동 594-24</add_kor>
+        <add_kor_road>서울특별시 도봉구 도봉로169길 43</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>도봉1동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9853</tel>
+        <latitude>37679437</latitude>
+        <longitude>127043377</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0094</main_key>
+        <gov_code>1334831</gov_code>
+        <name_kor>도봉2파출소</name_kor>
+        <add_kor>서울특별시 도봉구 도봉동 69-2</add_kor>
+        <add_kor_road>서울특별시 도봉구 도봉로180나길 33</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>도봉2동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9863</tel>
+        <latitude>37683954</latitude>
+        <longitude>127049260</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0095</main_key>
+        <gov_code>1334834</gov_code>
+        <name_kor>방학파출소</name_kor>
+        <add_kor>서울특별시 도봉구 방학동 687</add_kor>
+        <add_kor_road>서울특별시 도봉구 도봉로145길 45</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방학1동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9833</tel>
+        <latitude>37664489</latitude>
+        <longitude>127039418</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0096</main_key>
+        <gov_code>1334833</gov_code>
+        <name_kor>숭미파출소</name_kor>
+        <add_kor>서울특별시 도봉구 쌍문1동 349-34</add_kor>
+        <add_kor_road>서울특별시 도봉구 노해로 139</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>쌍문1동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9883</tel>
+        <latitude>37647475</latitude>
+        <longitude>127025566</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0097</main_key>
+        <gov_code>1334835</gov_code>
+        <name_kor>신방학파출소</name_kor>
+        <add_kor>서울특별시 도봉구 방학3동 498-12</add_kor>
+        <add_kor_road>서울특별시 도봉구 시루봉로5길 10</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방학3동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9843</tel>
+        <latitude>37658470</latitude>
+        <longitude>127027169</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0098</main_key>
+        <gov_code>1334287</gov_code>
+        <name_kor>신창파출소</name_kor>
+        <add_kor>서울특별시 도봉구 창2동 647-10</add_kor>
+        <add_kor_road>서울특별시 도봉구 도봉로104길 49-5</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>창2동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9823</tel>
+        <latitude>37643468</latitude>
+        <longitude>127034565</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0099</main_key>
+        <gov_code>1334832</gov_code>
+        <name_kor>쌍문파출소</name_kor>
+        <add_kor>서울특별시 도봉구 쌍문2동 43-3</add_kor>
+        <add_kor_road>서울특별시 도봉구 방학로3길 132</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>쌍문2동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9873</tel>
+        <latitude>37657539</latitude>
+        <longitude>127038064</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0100</main_key>
+        <gov_code>1335590</gov_code>
+        <name_kor>창동지구대</name_kor>
+        <add_kor>서울특별시 도봉구 창동 33-2</add_kor>
+        <add_kor_road>서울특별시 도봉구 노해로 392</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>창4동</h_kor_dong>
+        <h_kor_gu>도봉구</h_kor_gu>
+        <tel>02-2289-9813</tel>
+        <latitude>37652248</latitude>
+        <longitude>127051700</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0101</main_key>
+        <gov_code>1332833</gov_code>
+        <name_kor>서울동대문경찰서</name_kor>
+        <add_kor>서울특별시 동대문구 청량리동 229</add_kor>
+        <add_kor_road>서울특별시 동대문구 약령시로21길 29</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>청량리동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37584957</latitude>
+        <longitude>127045752</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0102</main_key>
+        <gov_code>1332845</gov_code>
+        <name_kor>답십리지구대</name_kor>
+        <add_kor>서울특별시 동대문구 답십리동 225-3</add_kor>
+        <add_kor_road>서울특별시 동대문구 답십리로41길 34</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>답십리1동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-2245-4147</tel>
+        <latitude>37573835</latitude>
+        <longitude>127053621</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0103</main_key>
+        <gov_code>1335321</gov_code>
+        <name_kor>용신지구대</name_kor>
+        <add_kor>서울특별시 동대문구 용두동 255-47</add_kor>
+        <add_kor_road>서울특별시 동대문구 청계천로7길 4</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>용신동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-923-2357</tel>
+        <latitude>37570791</latitude>
+        <longitude>127028145</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0104</main_key>
+        <gov_code>1334753</gov_code>
+        <name_kor>이문파출소</name_kor>
+        <add_kor>서울특별시 동대문구 이문동 92-1</add_kor>
+        <add_kor_road>서울특별시 동대문구 한천로 402</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>이문1동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-961-8738</tel>
+        <latitude>37596489</latitude>
+        <longitude>127068101</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0105</main_key>
+        <gov_code>1334751</gov_code>
+        <name_kor>장안1파출소</name_kor>
+        <add_kor>서울특별시 동대문구 장안동 388</add_kor>
+        <add_kor_road>서울특별시 동대문구 답십리로66길 3</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>장안1동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-2243-1662</tel>
+        <latitude>37572308</latitude>
+        <longitude>127068547</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0106</main_key>
+        <gov_code>1334752</gov_code>
+        <name_kor>장안2파출소</name_kor>
+        <add_kor>서울특별시 동대문구 장안동 329-5</add_kor>
+        <add_kor_road>서울특별시 동대문구 답십리로69길 100</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>장안2동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-2212-8420</tel>
+        <latitude>37576682</latitude>
+        <longitude>127074359</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0107</main_key>
+        <gov_code>1334758</gov_code>
+        <name_kor>전농파출소</name_kor>
+        <add_kor>서울특별시 동대문구 전농1동 103-573</add_kor>
+        <add_kor_road>서울특별시 동대문구 전농로38다길 21</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>전농1동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-2212-7058</tel>
+        <latitude>37586361</latitude>
+        <longitude>127054700</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0108</main_key>
+        <gov_code>1334756</gov_code>
+        <name_kor>제기파출소</name_kor>
+        <add_kor>서울특별시 동대문구 제기동 1145-2</add_kor>
+        <add_kor_road>서울특별시 동대문구 회기로 10</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>제기동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-928-5065</tel>
+        <latitude>37591090</latitude>
+        <longitude>127038243</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0109</main_key>
+        <gov_code>1334757</gov_code>
+        <name_kor>청량리역파출소</name_kor>
+        <add_kor>서울특별시 동대문구 전농동 588-1</add_kor>
+        <add_kor_road>서울특별시 동대문구 답십리로11길 30-22</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>전농1동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-959-1454</tel>
+        <latitude>37579245</latitude>
+        <longitude>127046443</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0110</main_key>
+        <gov_code>1334755</gov_code>
+        <name_kor>청회파출소</name_kor>
+        <add_kor>서울특별시 동대문구 청량리동 232-2</add_kor>
+        <add_kor_road>서울특별시 동대문구 약령시로21가길 8</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>청량리동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-959-9197</tel>
+        <latitude>37584099</latitude>
+        <longitude>127045288</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0111</main_key>
+        <gov_code>1334754</gov_code>
+        <name_kor>휘경파출소</name_kor>
+        <add_kor>서울특별시 동대문구 휘경동 283-1</add_kor>
+        <add_kor_road>서울특별시 동대문구 한천로 266</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>장안2동</h_kor_dong>
+        <h_kor_gu>동대문구</h_kor_gu>
+        <tel>02-968-2304</tel>
+        <latitude>37589651</latitude>
+        <longitude>127062726</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0112</main_key>
+        <gov_code>1332634</gov_code>
+        <name_kor>서울동작경찰서</name_kor>
+        <add_kor>서울특별시 동작구 노량진동 72</add_kor>
+        <add_kor_road>서울특별시 동작구 노량진로 148</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>노량진1동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37513210</latitude>
+        <longitude>126942815</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0113</main_key>
+        <gov_code>1332647</gov_code>
+        <name_kor>남성지구대</name_kor>
+        <add_kor>서울특별시 동작구 사당3동 169-21</add_kor>
+        <add_kor_road>서울특별시 동작구 사당로17길 4</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>사당3동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>02-3476-0112</tel>
+        <latitude>37483554</latitude>
+        <longitude>126974641</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0114</main_key>
+        <gov_code>1332645</gov_code>
+        <name_kor>노들지구대</name_kor>
+        <add_kor>서울특별시 동작구 본동 150-1</add_kor>
+        <add_kor_road>서울특별시 동작구 노량진로 248</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>노량진1동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>02-815-2470</tel>
+        <latitude>37512361</latitude>
+        <longitude>126953629</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0115</main_key>
+        <gov_code>1332644</gov_code>
+        <name_kor>노량진지구대</name_kor>
+        <add_kor>서울특별시 동작구 대방동 68-55</add_kor>
+        <add_kor_road>서울특별시 동작구 등용로12나길 2</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>대방동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>02-815-3494</tel>
+        <latitude>37511103</latitude>
+        <longitude>126933281</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0116</main_key>
+        <gov_code>1335584</gov_code>
+        <name_kor>대방지구대</name_kor>
+        <add_kor>서울특별시 동작구 신대방동 719-2</add_kor>
+        <add_kor_road>서울특별시 동작구 신대방1다길 24</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>신대방1동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>02-821-2431</tel>
+        <latitude>37486610</latitude>
+        <longitude>126905932</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0117</main_key>
+        <gov_code>1332850</gov_code>
+        <name_kor>사당지구대</name_kor>
+        <add_kor>서울특별시 동작구 사당동 1028-1</add_kor>
+        <add_kor_road>서울특별시 동작구 동작대로9길 35</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>사당1동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>02-521-0112</tel>
+        <latitude>37480540</latitude>
+        <longitude>126979494</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0118</main_key>
+        <gov_code>1334772</gov_code>
+        <name_kor>상도3파출소</name_kor>
+        <add_kor>서울특별시 동작구 상도동 320-13</add_kor>
+        <add_kor_road>서울특별시 동작구 상도로 87</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>상도3동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>02-814-6189</tel>
+        <latitude>37499873</latitude>
+        <longitude>126930357</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0119</main_key>
+        <gov_code>1332646</gov_code>
+        <name_kor>상도지구대</name_kor>
+        <add_kor>서울특별시 동작구 상도2동 368-5</add_kor>
+        <add_kor_road>서울특별시 동작구 장승배기로 73</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>상도2동</h_kor_dong>
+        <h_kor_gu>동작구</h_kor_gu>
+        <tel>02-822-1960</tel>
+        <latitude>37504227</latitude>
+        <longitude>126939040</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0120</main_key>
+        <gov_code>1329428</gov_code>
+        <name_kor>서울마포경찰서</name_kor>
+        <add_kor>서울특별시 마포구 아현동 618-1</add_kor>
+        <add_kor_road>서울특별시 마포구 마포대로 183</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>아현동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37550720</latitude>
+        <longitude>126954235</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0121</main_key>
+        <gov_code>1331420</gov_code>
+        <name_kor>공덕지구대</name_kor>
+        <add_kor>서울특별시 마포구 공덕동 456</add_kor>
+        <add_kor_road>서울특별시 마포구 만리재로 14</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>아현동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-703-0492</tel>
+        <latitude>37543942</latitude>
+        <longitude>126952840</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0122</main_key>
+        <gov_code>1334759</gov_code>
+        <name_kor>망원파출소</name_kor>
+        <add_kor>서울특별시 마포구 망원동 398-1</add_kor>
+        <add_kor_road>서울특별시 마포구 망원로2길 63</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>망원1동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-337-5908</tel>
+        <latitude>37554303</latitude>
+        <longitude>126902723</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0062</main_key>
+        <gov_code>1334809</gov_code>
+        <name_kor>가리봉파출소</name_kor>
+        <add_kor>서울특별시 구로구 가리봉동 136-80</add_kor>
+        <add_kor_road>서울특별시 구로구 남부순환로 1275</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>가리봉동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>02-854-0112</tel>
+        <latitude>37479123</latitude>
+        <longitude>126892588</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0063</main_key>
+        <gov_code>1331494</gov_code>
+        <name_kor>개봉지구대</name_kor>
+        <add_kor>서울특별시 구로구 개봉2동 259-1</add_kor>
+        <add_kor_road>서울특별시 구로구 개봉로1가길 28</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>개봉3동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>02-2612-0330</tel>
+        <latitude>37491782</latitude>
+        <longitude>126856449</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0064</main_key>
+        <gov_code>1331492</gov_code>
+        <name_kor>고척지구대</name_kor>
+        <add_kor>서울특별시 구로구 고척2동 198-6</add_kor>
+        <add_kor_road>서울특별시 구로구 중앙로15길 30</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>고척2동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>02-2612-0112</tel>
+        <latitude>37506738</latitude>
+        <longitude>126858413</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0065</main_key>
+        <gov_code>1334808</gov_code>
+        <name_kor>구로3파출소</name_kor>
+        <add_kor>서울특별시 구로구 구로동 256-1</add_kor>
+        <add_kor_road>서울특별시 구로구 디지털로31길 86</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>구로3동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>02-866-0112</tel>
+        <latitude>37487695</latitude>
+        <longitude>126891823</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0066</main_key>
+        <gov_code>1331491</gov_code>
+        <name_kor>구일지구대</name_kor>
+        <add_kor>서울특별시 구로구 구로동 766-238</add_kor>
+        <add_kor_road>서울특별시 구로구 도림로 63</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>구로4동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>02-862-4008</tel>
+        <latitude>37489227</latitude>
+        <longitude>126890693</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0067</main_key>
+        <gov_code>1332366</gov_code>
+        <name_kor>신구로지구대</name_kor>
+        <add_kor>서울특별시 구로구 구로5동 109-4</add_kor>
+        <add_kor_road>서울특별시 구로구 구로중앙로28길 66</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>구로5동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>02-853-0189</tel>
+        <latitude>37500076</latitude>
+        <longitude>126889324</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0068</main_key>
+        <gov_code>1331490</gov_code>
+        <name_kor>오류지구대</name_kor>
+        <add_kor>서울특별시 구로구 오류1동 31</add_kor>
+        <add_kor_road>서울특별시 구로구 경인로 221 (오류동)</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>오류1동</h_kor_dong>
+        <h_kor_gu>구로구</h_kor_gu>
+        <tel>02-2612-6112</tel>
+        <latitude>37497346</latitude>
+        <longitude>126844352</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0069</main_key>
+        <gov_code>1332675</gov_code>
+        <name_kor>서울금천경찰서</name_kor>
+        <add_kor>서울특별시 관악구 신림동 544</add_kor>
+        <add_kor_road>서울특별시 관악구 남부순환로 1435</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>조원동</h_kor_dong>
+        <h_kor_gu>관악구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37481432</latitude>
+        <longitude>126910246</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0123</main_key>
+        <gov_code>1334240</gov_code>
+        <name_kor>상암파출소</name_kor>
+        <add_kor>서울특별시 마포구 상암동 8-8</add_kor>
+        <add_kor_road>서울특별시 마포구 매봉산로 76</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>상암동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-309-9525</tel>
+        <latitude>37578224</latitude>
+        <longitude>126893822</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0124</main_key>
+        <gov_code>1331415</gov_code>
+        <name_kor>서강지구대</name_kor>
+        <add_kor>서울특별시 마포구 독막로22길 8</add_kor>
+        <add_kor_road>서울특별시 마포구 독막로22길 8</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>서강동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-334-4975</tel>
+        <latitude>37547294</latitude>
+        <longitude>126929276</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0125</main_key>
+        <gov_code>1335387</gov_code>
+        <name_kor>연남파출소</name_kor>
+        <add_kor>서울특별시 마포구 연남동 373-20</add_kor>
+        <add_kor_road>서울특별시 마포구 연남로 4</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>연남동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-334-4974</tel>
+        <latitude>37560290</latitude>
+        <longitude>126923728</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0126</main_key>
+        <gov_code>1331416</gov_code>
+        <name_kor>용강지구대</name_kor>
+        <add_kor>서울특별시 마포구 용강동 259-1</add_kor>
+        <add_kor_road>서울특별시 마포구 도화길 40</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>도화동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-716-6391</tel>
+        <latitude>37541882</latitude>
+        <longitude>126941605</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0127</main_key>
+        <gov_code>1331419</gov_code>
+        <name_kor>월드컵지구대</name_kor>
+        <add_kor>서울특별시 마포구 성산동 602</add_kor>
+        <add_kor_road>서울특별시 마포구 월드컵북로30길 24</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>성산2동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-373-1113</tel>
+        <latitude>37568674</latitude>
+        <longitude>126909093</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0128</main_key>
+        <gov_code>1331418</gov_code>
+        <name_kor>홍익지구대</name_kor>
+        <add_kor>서울특별시 마포구 서교동 369-9</add_kor>
+        <add_kor_road>서울특별시 마포구 양화로11길 63</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>서교동</h_kor_dong>
+        <h_kor_gu>마포구</h_kor_gu>
+        <tel>02-334-8150</tel>
+        <latitude>37552449</latitude>
+        <longitude>126920736</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0129</main_key>
+        <gov_code>1329903</gov_code>
+        <name_kor>서울방배경찰서</name_kor>
+        <add_kor>서울특별시 서초구 방배2동 455-10</add_kor>
+        <add_kor_road>서울특별시 서초구 방배천로 54</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방배2동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>182</tel>
+        <latitude>37481474</latitude>
+        <longitude>126983064</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0130</main_key>
+        <gov_code>1331513</gov_code>
+        <name_kor>남태령지구대</name_kor>
+        <add_kor>서울특별시 서초구 방배2동 442-4</add_kor>
+        <add_kor_road>서울특별시 서초구 동작대로 34</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>방배2동</h_kor_dong>
+        <h_kor_gu>서초구</h_kor_gu>
+        <tel>02-582-8410</tel>
+        <latitude>37479445</latitude>
+        <longitude>126982141</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0263</main_key>
+        <gov_code>1334738</gov_code>
+        <name_kor>대학로파출소</name_kor>
+        <add_kor>서울특별시 종로구 동숭동 201-10</add_kor>
+        <add_kor_road>서울특별시 종로구 이화장2길 33</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>이화동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-763-1230</tel>
+        <latitude>37578574</latitude>
+        <longitude>127006028</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0264</main_key>
+        <gov_code>1334742</gov_code>
+        <name_kor>덕산파출소</name_kor>
+        <add_kor>서울특별시 종로구 창신동 594-8</add_kor>
+        <add_kor_road>서울특별시 종로구 창신길 98</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>창신2동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-763-6843</tel>
+        <latitude>37575953</latitude>
+        <longitude>127010511</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0265</main_key>
+        <gov_code>1334741</gov_code>
+        <name_kor>동묘파출소</name_kor>
+        <add_kor>서울특별시 종로구 숭인동 242-7</add_kor>
+        <add_kor_road>서울특별시 종로구 종로58가길 19</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>숭인2동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-2252-0547</tel>
+        <latitude>37572621</latitude>
+        <longitude>127017029</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0266</main_key>
+        <gov_code>1334739</gov_code>
+        <name_kor>명륜파출소</name_kor>
+        <add_kor>서울특별시 종로구 명륜1가 16-60</add_kor>
+        <add_kor_road>서울특별시 종로구 성균관로 54-1</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>혜화동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-762-1120</tel>
+        <latitude>37587431</latitude>
+        <longitude>126996746</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0267</main_key>
+        <gov_code>1334743</gov_code>
+        <name_kor>종로5가파출소</name_kor>
+        <add_kor>서울특별시 종로구 종로5가 138-1</add_kor>
+        <add_kor_road>서울특별시 종로구 동호로 407</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종로5.6가동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-2267-2287</tel>
+        <latitude>37570697</latitude>
+        <longitude>127001631</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0268</main_key>
+        <gov_code>1334740</gov_code>
+        <name_kor>창신파출소</name_kor>
+        <add_kor>서울특별시 종로구 창신동 23-373</add_kor>
+        <add_kor_road>서울특별시 종로구 지봉로13길 20-12</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>창신3동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-763-4200</tel>
+        <latitude>37578728</latitude>
+        <longitude>127013588</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0269</main_key>
+        <gov_code>1334239</gov_code>
+        <name_kor>혜화파출소</name_kor>
+        <add_kor>서울특별시 종로구 혜화동 93-1</add_kor>
+        <add_kor_road>서울특별시 종로구 창경궁로 279</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>혜화동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-762-0811</tel>
+        <latitude>37586006</latitude>
+        <longitude>127001372</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0270</main_key>
+        <gov_code>1334744</gov_code>
+        <name_kor>효제파출소</name_kor>
+        <add_kor>서울특별시 종로구 충신동 105</add_kor>
+        <add_kor_road>서울특별시 종로구 율곡로14길 43</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>종로5.6가동</h_kor_dong>
+        <h_kor_gu>종로구</h_kor_gu>
+        <tel>02-762-8485</tel>
+        <latitude>37574210</latitude>
+        <longitude>127003648</longitude>
+    </row>
+    <row>
+        <main_key>BE_LiST32-0261</main_key>
+        <gov_code>1334726</gov_code>
+        <name_kor>충무파출소</name_kor>
+        <add_kor>서울특별시 중구 필동1가 20-5</add_kor>
+        <add_kor_road>서울특별시 중구 퇴계로 178</add_kor_road>
+        <h_kor_city>서울특별시</h_kor_city>
+        <h_kor_dong>필동</h_kor_dong>
+        <h_kor_gu>중구</h_kor_gu>
+        <tel>02-2266-7710</tel>
+        <latitude>37560847</latitude>
+        <longitude>126991579</longitude>
+    </row>
+</SebcPoliceStationKor>

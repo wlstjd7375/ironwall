@@ -2,8 +2,11 @@ package com.ironwall.android.smartspray.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.Image;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,9 +18,12 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ironwall.android.smartspray.R;
 import com.ironwall.android.smartspray.database.DBManager;
+import com.ironwall.android.smartspray.service.SprayService;
+import com.ironwall.android.smartspray.util.BluetoothUtil;
 import com.ironwall.android.smartspray.util.GpsUtil;
 import com.ironwall.android.smartspray.util.NetworkUtil;
 
@@ -48,6 +54,9 @@ public class MainActivity extends AppCompatActivity
 
     private TextView tvSosNumberCount;
 
+    //test
+    private Intent serviceIntent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +65,25 @@ public class MainActivity extends AppCompatActivity
 
         initNavigationDrawerActivity();
         initLayout();
+
+        //사용자 이름
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+        String name = sharedPref.getString("pref_my_name", "");
+        String welcome = "Welcome";
+        if(!name.equals("") && name != null)
+        {
+            welcome += ", " + name;
+        }
+
+        Toast.makeText(mContext, welcome, Toast.LENGTH_LONG).show();
+
+        //startService();
+    }
+
+    private void startService() {
+        serviceIntent = new Intent(mContext, SprayService.class);
+        startService(serviceIntent);
+        Log.d(LOG_TAG, "service start");
     }
 
     @Override
@@ -73,7 +101,7 @@ public class MainActivity extends AppCompatActivity
         llSafenow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                stopService(serviceIntent);
             }
         });
         llSos = (LinearLayout)findViewById(R.id.llSos);
@@ -96,7 +124,8 @@ public class MainActivity extends AppCompatActivity
         llSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(mContext, SettingsActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -153,6 +182,7 @@ public class MainActivity extends AppCompatActivity
         int result = 0;
         result += NetworkUtil.getConnectivityStatus(mContext);
         result += GpsUtil.getConnectivityStatus(mContext);
+        result += BluetoothUtil.getConnectivityStatus(mContext);
         for(int i = 0; i < 4; i ++) {
             int on = result & 1;
             if(on == 1) {

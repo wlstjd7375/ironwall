@@ -10,8 +10,17 @@ import com.ironwall.android.smartspray.global.GlobalVariable;
  */
 public class GpsUtil {
 
+    private static LocationManager manager;
+
+    public GpsUtil(Context context) {
+        manager = (LocationManager)context.getSystemService(Context.LOCATION_SERVICE );
+    }
+
     public static int getConnectivityStatus(Context context) {
-        LocationManager manager = (LocationManager)context.getSystemService(Context.LOCATION_SERVICE );
+        if(manager == null) {
+            new GpsUtil(context);
+        }
+
         int result = 0;
         if(manager != null) {
             //## GPS 위성 사용 여부 체크

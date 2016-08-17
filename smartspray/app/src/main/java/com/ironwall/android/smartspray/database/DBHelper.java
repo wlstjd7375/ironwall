@@ -17,7 +17,7 @@ public class DBHelper {
     private static final String DATABASE_NAME = "ironwall.sqlite";
 
     //DB 버전 : 테이블 구조가 변경되면 버전을 업그레이드 시켜준다 > drop table, create table
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 3;
 
     public static SQLiteDatabase mDB;
     private DatabaseHelper mDBHelper;
@@ -57,6 +57,7 @@ public class DBHelper {
             }
             db.execSQL(IronwallDB.CreateDB._CREATE_SOS_NUMBER_TABLE);
             db.execSQL(IronwallDB.CreateDB._CREATE_MESSAGE_TYPE_TABLE);
+            db.execSQL(IronwallDB.CreateDB._CREATE_POLICE_TABLE);
         }
 
         // 버전이 업데이트 되었을 경우 DB를 다시 만들어 준다.
@@ -67,6 +68,7 @@ public class DBHelper {
             }
             db.execSQL("DROP TABLE IF EXISTS " + IronwallDB._SOS_NUMBER_TABLE_NAME);
             db.execSQL("DROP TABLE IF EXISTS " + IronwallDB._MESSAGE_TYPE_TABLE_NAME);
+            db.execSQL("DROP TABLE IF EXISTS " + IronwallDB._POLICE_TABLE_NAME);
 
             onCreate(db);
         }

@@ -13,13 +13,21 @@ import com.ironwall.android.smartspray.global.GlobalVariable;
 //http://koreaparks.tistory.com/128
 public class NetworkUtil {
 
+    private static ConnectivityManager manager;
+
+    public NetworkUtil(Context context) {
+        manager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+    }
+
     public static int getConnectivityStatus(Context context) {
-        ConnectivityManager cm = (ConnectivityManager) context
-                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        if(manager == null) {
+            new NetworkUtil(context);
+        }
 
         int result = 0;
 
-        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        NetworkInfo activeNetwork = manager.getActiveNetworkInfo();
         if (activeNetwork != null) {
             if(activeNetwork.getType() == ConnectivityManager.TYPE_WIFI) {
                 result += GlobalVariable.TYPE_WIFI;

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="FAKE CALL"
+        android:key="pref_category_fake_call">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_fake_call"
+            android:title="Fake Call" />
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="pref_fake_call"
+            android:key="pref_fake_call_ringtone"
+            android:ringtoneType="ringtone"
+            android:title="@string/pref_title_ringtone" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="WARNING ALARM"
+        android:key="pref_category_warning_alarm">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_warning_alarm"
+            android:title="Warning Alarm" />
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="pref_warning_alarm"
+            android:key="pref_warning_alarm_ringtone"
+            android:ringtoneType="alarm"
+            android:title="@string/pref_title_ringtone" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="MY ACCOUNT"
+        android:key="pref_category_my_account">
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue=""
+            android:inputType="textCapWords"
+            android:key="pref_my_name"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:inputType="numberPassword"
+            android:key="pref_my_password"
+            android:maxLines="1"
+            android:maxEms="4"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Password" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:inputType="number"
+            android:key="pref_my_device"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Device Serial Number" />
+    </PreferenceCategory>
+
+    <Preference
+        android:key="pref_app_info"
+        android:title="App Info" />
+
+
+</PreferenceScreen>

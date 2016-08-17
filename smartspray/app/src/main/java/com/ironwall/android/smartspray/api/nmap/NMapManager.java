@@ -65,6 +65,9 @@ public class NMapManager {
     //## 주변의 위험지역을 표시해주는 POI data 집합
     private NMapPOIdataOverlay mDangerZonePOIDataOverlay;
 
+    //TODO test
+    private NGeoPoint myCurrentPosition = new NGeoPoint();
+
     public NMapManager(Context _mContext, NMapView _mMapView) {
         mContext = _mContext;
         mMapView = _mMapView;
@@ -340,11 +343,11 @@ public class NMapManager {
 
         @Override
         public boolean onLocationChanged(NMapLocationManager locationManager, NGeoPoint myLocation) {
-
+            // 현재 위치 변경시 호출, myLocation 객체에 변경된 좌표가 전달
             if (mMapController != null) {
                 mMapController.animateTo(myLocation);
             }
-
+            myCurrentPosition = myLocation;
             return true;
         }
 
@@ -358,7 +361,6 @@ public class NMapManager {
             //				}
             //			};
             //			runnable.run();
-
             Toast.makeText(mContext, "Your current location is temporarily unavailable.", Toast.LENGTH_LONG).show();
         }
 
@@ -460,6 +462,10 @@ public class NMapManager {
     //
     public void setPolicePOIdataOverlay(ArrayList<PoliceStation> mDataList) {
 
+        if(mDataList == null) {
+            return;
+        }
+
         //## 이미 주위 경창서 위치가 검색되어 있으면
         if(mPolicePOIDataOverlay != null && mOverlayManager.hasOverlay(mPolicePOIDataOverlay)) {
             //## 위치 삭제
@@ -484,10 +490,11 @@ public class NMapManager {
         NMapPOIdata poiData = new NMapPOIdata(size, mMapViewerResourceProvider);
         poiData.beginPOIdata(size);
         for(PoliceStation ps : mDataList) {
-            longitude = ps.longitude;
-            latitude = ps.latitude;
+            longitude = NGeoPoint.toLongitude(ps.longitude);
+            latitude = NGeoPoint.toLatitude(ps.latitude);
+
             policeName = ps.name;
-            policeNumber = ps.number;
+            policeNumber = ps.tel;
 
             NMapPOIitem item = poiData.addPOIitem(longitude, latitude, "" + policeName + "\n" + policeNumber, markerId, 0);
             item.setRightAccessory(true, NMapPOIflagType.CLICKABLE_ARROW);
@@ -548,5 +555,10 @@ public class NMapManager {
 
     public void pointToAddress(NGeoPoint point) {
         mMapActivityContext.findPlacemarkAtLocation(point.getLongitude(), point.getLatitude());
+    }
+
+    public NGeoPoint getMyLocation() {
+        //return mMapLocationManager.getMyLocation();
+        return myCurrentPosition;
     }
 }

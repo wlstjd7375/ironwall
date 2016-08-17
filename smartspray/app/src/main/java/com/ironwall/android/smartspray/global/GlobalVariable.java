@@ -16,4 +16,11 @@ public class GlobalVariable {
     public static int TYPE_BLUETOOTH = 4;
     public static int TYPE_WIFI = 8;
 
+
+    final public static String emergency = "EMERGENCY";
+    final public static String lowbattery = "LOWBATTERY";
+    final public static String BROADCASTER = "com.irolwall.IRONWALL";
+    final public static int IN_EMERGENCY = 1;
+    final public static int IN_LOWBATTERY = 2;
+
 }

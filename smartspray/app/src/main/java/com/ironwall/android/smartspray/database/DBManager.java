@@ -5,9 +5,11 @@ import android.content.Context;
 import android.database.Cursor;
 import android.util.Log;
 
+import com.ironwall.android.smartspray.dto.PoliceStation;
 import com.ironwall.android.smartspray.dto.SosNumber;
 import com.ironwall.android.smartspray.global.GlobalVariable;
 
+import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
@@ -36,7 +38,7 @@ public class DBManager {
         if (instance == null) {
             instance = new DBManager(context);
         }
-        Log.d(LOG_TAG, "getManager() return instance");
+        //Log.d(LOG_TAG, "getManager() return instance");
         return instance;
     }
 
@@ -104,5 +106,76 @@ public class DBManager {
         c.close();
 
         return count;
+    }
+
+    public static synchronized long setPoliceStation(PoliceStation ps) {
+        ContentValues values = new ContentValues();
+        values.put(IronwallDB._POLICE_COL_MAIN_KEY, ps.main_key);
+        values.put(IronwallDB._POLICE_COL_GOV_CODE, ps.gov_code);
+        values.put(IronwallDB._POLICE_COL_NAME, ps.name);
+        values.put(IronwallDB._POLICE_COL_ADD_KOR, ps.add_kor);
+        values.put(IronwallDB._POLICE_COL_ADD_KOR_ROAD, ps.add_kor_road);
+        values.put(IronwallDB._POLICE_COL_H_KOR_CITY, ps.h_kor_city);
+        values.put(IronwallDB._POLICE_COL_H_KOR_GU, ps.h_kor_gu);
+        values.put(IronwallDB._POLICE_COL_H_KOR_DONG, ps.h_kor_dong);
+        values.put(IronwallDB._POLICE_COL_TEL, ps.tel);
+        values.put(IronwallDB._POLICE_COL_LONGITUDE, ps.longitude);
+        values.put(IronwallDB._POLICE_COL_LATITUDE, ps.latitude);
+
+        //error : return -1, success : return rowId
+        long result = dbh.mDB.insert(IronwallDB._POLICE_TABLE_NAME, null, values);
+        /*
+        if(GlobalVariable.IS_DEBUG_MODE) {
+            Log.d(LOG_TAG, "setPoliceStation Done, result code: " + result);
+        }*/
+        return result;
+    }
+
+    public static synchronized int getPoliceStationCount() {
+        String sql = "select count(*) from " + IronwallDB._POLICE_TABLE_NAME + " ;";
+
+        Cursor c = dbh.mDB.rawQuery(sql, null);
+        c.moveToFirst();
+        int count = c.getInt(0);
+        c.close();
+
+        return count;
+    }
+
+    public static synchronized ArrayList<PoliceStation> getPoliceNearby(int longitude, int latitude, int range_long, int range_lat) {
+        int long_from = longitude - range_long;
+        int long_to = longitude + range_long;
+        int lat_from = latitude - range_lat;
+        int lat_to = latitude + range_lat;
+        ArrayList<PoliceStation> result = new ArrayList<PoliceStation>();
+
+        String sql = "select "+ IronwallDB._POLICE_COL_NAME + ", "
+                + IronwallDB._POLICE_COL_TEL + ", "
+                + IronwallDB._POLICE_COL_LONGITUDE + ", "
+                + IronwallDB._POLICE_COL_LATITUDE
+                + " from " + IronwallDB._POLICE_TABLE_NAME
+                + " where " + IronwallDB._POLICE_COL_LONGITUDE + " between " + long_from + " and " + long_to
+                + " and " + IronwallDB._POLICE_COL_LATITUDE + " between " + lat_from + " and " + lat_to
+                + " ;";
+
+        Cursor c = dbh.mDB.rawQuery(sql, null);
+        c.moveToFirst();
+        while(!c.isAfterLast()) {
+            PoliceStation ps = new PoliceStation();
+            ps.name = c.getString(c.getColumnIndex(IronwallDB._POLICE_COL_NAME));
+            ps.tel = c.getString(c.getColumnIndex(IronwallDB._POLICE_COL_TEL));
+            ps.longitude = c.getInt(c.getColumnIndex(IronwallDB._POLICE_COL_LONGITUDE));
+            ps.latitude = c.getInt(c.getColumnIndex(IronwallDB._POLICE_COL_LATITUDE));
+
+            result.add(ps);
+
+            c.moveToNext();
+        }
+
+        c.close();
+        if(GlobalVariable.IS_DEBUG_MODE) {
+            Log.d(LOG_TAG, "getPoliceNearby Done, result size: " + result.size());
+        }
+        return result;
     }
 }
