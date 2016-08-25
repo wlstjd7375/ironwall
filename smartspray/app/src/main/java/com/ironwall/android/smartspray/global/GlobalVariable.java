@@ -17,10 +17,15 @@ public class GlobalVariable {
     public static int TYPE_WIFI = 8;
 
 
-    final public static String emergency = "EMERGENCY";
-    final public static String lowbattery = "LOWBATTERY";
-    final public static String BROADCASTER = "com.irolwall.IRONWALL";
-    final public static int IN_EMERGENCY = 1;
-    final public static int IN_LOWBATTERY = 2;
+
+    public static final String emergency = "EMERGENCY";
+    public static final String lowbattery = "LOWBATTERY";
+    public static final String BROADCASTER = "com.irolwall.IRONWALL";
+    public static final int IN_EMERGENCY = 1;
+    public static final int IN_LOWBATTERY = 2;
+
+    public static final String RINGTONE_NAME = "ringtone_name";
+
+    public static String PACKAGE_NAME = "com.ironwall.android.smartspray";
 
 }

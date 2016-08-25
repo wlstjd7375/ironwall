@@ -164,7 +164,7 @@ public class LoadingActivity extends AppCompatActivity {
                     case XmlPullParser.END_TAG:
                         sTag = parser.getName();
                         if(sTag.equalsIgnoreCase("ROW")) {
-                            //TODO save to db
+                            //save to db
                             long result = DBManager.getManager(mContext).setPoliceStation(ps);
                             if(result == -1) { // fail
                                 Toast.makeText(mContext, "DB Insertion Fail", Toast.LENGTH_SHORT).show();

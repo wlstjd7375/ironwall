@@ -1,11 +1,17 @@
 package com.ironwall.android.smartspray.activity;
 
+import android.Manifest;
+import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.media.Image;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -22,7 +28,10 @@ import android.widget.Toast;
 
 import com.ironwall.android.smartspray.R;
 import com.ironwall.android.smartspray.database.DBManager;
+import com.ironwall.android.smartspray.global.GlobalVariable;
+import com.ironwall.android.smartspray.service.RingtonePlayingService;
 import com.ironwall.android.smartspray.service.SprayService;
+import com.ironwall.android.smartspray.service.SpraySignalReceiver;
 import com.ironwall.android.smartspray.util.BluetoothUtil;
 import com.ironwall.android.smartspray.util.GpsUtil;
 import com.ironwall.android.smartspray.util.NetworkUtil;
@@ -54,8 +63,14 @@ public class MainActivity extends AppCompatActivity
 
     private TextView tvSosNumberCount;
 
-    //test
+    //## nav_header_main
+    private NavigationView navigationView;
+    private TextView tvUsername;
+
+    //service
     private Intent serviceIntent;
+    private static final int REQUEST_ENABLE_BT = 1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,24 +81,56 @@ public class MainActivity extends AppCompatActivity
         initNavigationDrawerActivity();
         initLayout();
 
-        //사용자 이름
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-        String name = sharedPref.getString("pref_my_name", "");
-        String welcome = "Welcome";
-        if(!name.equals("") && name != null)
-        {
-            welcome += ", " + name;
-        }
-
-        Toast.makeText(mContext, welcome, Toast.LENGTH_LONG).show();
-
-        //startService();
+        startService();
     }
 
     private void startService() {
-        serviceIntent = new Intent(mContext, SprayService.class);
-        startService(serviceIntent);
-        Log.d(LOG_TAG, "service start");
+        //Check permission
+
+        int permissionCheck = ContextCompat.checkSelfPermission(this,
+                Manifest.permission.ACCESS_COARSE_LOCATION);
+
+        if(permissionCheck == PackageManager.PERMISSION_DENIED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
+                    REQUEST_ENABLE_BT);
+        }
+
+        //check if service is already started
+        boolean flag = false;
+        ActivityManager manager = (ActivityManager)MainActivity.this.getSystemService(Context.ACTIVITY_SERVICE);//use context received in broadcastreceiver
+        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE))
+        {
+
+            if (SprayService.class.getName().equals(service.service.getClassName())) {
+                flag = true;
+                break;
+            }
+        }
+        if(flag == false)
+        {
+            serviceIntent = new Intent(mContext, SprayService.class);
+            startService(serviceIntent);
+            Log.d(LOG_TAG, "service start");
+        }
+
+        //TODO 서비스가 이미 켜져있으면, shared preference 로 현재 기기가 연결되어있는지 상태를 확인 후 연결되지 않았으면 서비스 종료후 다시 실행
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case REQUEST_ENABLE_BT: {
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                } else {
+                    Toast.makeText(this, "앱 실행을 위해서는 해당 권한을 반드시 허용해야 합니다.",
+                            Toast.LENGTH_LONG).show();
+                }
+                return;
+            }
+        }
     }
 
     @Override
@@ -91,6 +138,15 @@ public class MainActivity extends AppCompatActivity
         super.onResume();
         int count = DBManager.getManager(mContext).getSosNumberCount();
         tvSosNumberCount.setText(count + "");
+
+        //사용자 이름
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+        String name = sharedPref.getString("pref_my_name", "");
+        String welcome = "Welcome";
+        if(!name.equals("") && name != null)
+        {
+            tvUsername.setText(name);
+        }
 
         refreshConnectionStatus();
     }
@@ -101,7 +157,9 @@ public class MainActivity extends AppCompatActivity
         llSafenow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                stopService(serviceIntent);
+                //Intent sprayService = new Intent(mContext, SprayService.class);
+                //Intent ringtonePlayingService = new Intent(mContext, RingtonePlayingService.class);
+                //stopService(ringtonePlayingService);
             }
         });
         llSos = (LinearLayout)findViewById(R.id.llSos);
@@ -152,6 +210,10 @@ public class MainActivity extends AppCompatActivity
                 refreshConnectionStatus();
             }
         });
+
+        //##nav_header_view
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        tvUsername = (TextView) navigationView.getHeaderView(0).findViewById(R.id.tvUserName);
     }
 
     private void initNavigationDrawerActivity() {
@@ -232,18 +294,29 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_connect) {
+            startService();
+        } else if (id == R.id.nav_disconnect) {
+            //check if service is already started
+            /*
+            boolean flag = false;
+            ActivityManager manager = (ActivityManager)MainActivity.this.getSystemService(Context.ACTIVITY_SERVICE);//use context received in broadcastreceiver
+            for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE))
+            {
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+                if (SprayService.class.getName().equals(service.service.getClassName())) {
+                    flag = true;
+                    break;
+                }
+            }
+            if(flag == true)
+            {
+                stopService(serviceIntent);
+                Toast.makeText(mContext, "Disconnected Successfully", Toast.LENGTH_SHORT).show();
+                Log.d(LOG_TAG, "service disconnected");
+            }*/
+            Intent serviceIntent = new Intent(mContext, SprayService.class);
+            stopService(serviceIntent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

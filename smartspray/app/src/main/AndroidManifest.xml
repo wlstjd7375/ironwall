@@ -45,6 +45,12 @@
             android:label="@string/title_activity_settings"></activity>
 
         <service android:name=".service.SprayService" android:enabled="true"/>
+        <service android:name=".service.RingtonePlayingService" android:enabled="true"/>
+        <receiver android:name=".service.SpraySignalReceiver">
+            <intent-filter>
+                <action android:name="com.irolwall.IRONWALL" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

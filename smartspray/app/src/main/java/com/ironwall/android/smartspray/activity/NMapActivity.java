@@ -80,6 +80,15 @@ public class NMapActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(mMapManager != null)
+        {
+            mMapManager = null;
+        }
+    }
+
     private void initNMap() {
         mMapManager.setClientId(GlobalVariable.CLIENT_ID);
         mMapManager.init(getNMapContext());
@@ -93,8 +102,7 @@ public class NMapActivity extends AppCompatActivity {
         ivPolice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO get real data from DB
-                //ArrayList<PoliceStation> mDataList = setTestData();
+                //get real data from DB
                 ArrayList<PoliceStation> mDataList = getPoliceStation();
                 mMapManager.setPolicePOIdataOverlay(mDataList);
             }
