@@ -1,6 +1,8 @@
 package com.ironwall.android.smartspray.activity;
 
 import android.annotation.TargetApi;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -12,6 +14,7 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
+import android.widget.ListView;
 
 import com.ironwall.android.smartspray.R;
 
@@ -24,6 +27,10 @@ public class SettingsFragment extends PreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        ListView list = (ListView) getActivity().findViewById(android.R.id.list);
+        list.setDivider(new ColorDrawable(Color.rgb(0, 0, 0)));
+
         // Load the preferences from an XML resource
         addPreferencesFromResource(R.xml.pref_settings);
 

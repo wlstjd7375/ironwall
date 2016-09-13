@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity
     private static final int REQUEST_ENABLE_BT = 1;
 
 
+    private SpraySignalReceiver mReceiver;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,7 +83,19 @@ public class MainActivity extends AppCompatActivity
         initNavigationDrawerActivity();
         initLayout();
 
+        //Broadcase Receiver
+        mReceiver = new SpraySignalReceiver();
+        IntentFilter register = new IntentFilter();
+        register.addAction(GlobalVariable.BROADCASTER);
+        registerReceiver(mReceiver, register);
+
         startService();
+    }
+
+    @Override
+    protected void onDestroy() {
+        unregisterReceiver(mReceiver);
+        super.onDestroy();
     }
 
     private void startService() {
@@ -157,9 +171,8 @@ public class MainActivity extends AppCompatActivity
         llSafenow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent sprayService = new Intent(mContext, SprayService.class);
-                //Intent ringtonePlayingService = new Intent(mContext, RingtonePlayingService.class);
-                //stopService(ringtonePlayingService);
+                Intent intent = new Intent(mContext, SafenowActivity.class);
+                startActivity(intent);
             }
         });
         llSos = (LinearLayout)findViewById(R.id.llSos);
@@ -214,6 +227,13 @@ public class MainActivity extends AppCompatActivity
         //##nav_header_view
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         tvUsername = (TextView) navigationView.getHeaderView(0).findViewById(R.id.tvUserName);
+        tvUsername.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mContext, SettingsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initNavigationDrawerActivity() {

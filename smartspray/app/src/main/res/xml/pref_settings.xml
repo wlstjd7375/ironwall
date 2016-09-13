@@ -4,7 +4,7 @@
         android:title="FAKE CALL"
         android:key="pref_category_fake_call">
         <SwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="pref_fake_call"
             android:title="Fake Call" />
         <RingtonePreference

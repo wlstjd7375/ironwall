@@ -27,19 +27,16 @@ public class SpraySignalReceiver extends BroadcastReceiver {
         String action = intent.getAction();
         if(action.equals(GlobalVariable.BROADCASTER)) {
 
-            Log.d(LOG_TAG, "BroadcasterRecieved");
-
             int emresult = intent.getIntExtra(GlobalVariable.emergency, 0);
             int lbresult = intent.getIntExtra(GlobalVariable.lowbattery, 0);
+            Log.d(LOG_TAG, "BroadcasterRecieved");
             if(emresult == 1) {
-                //int n = DBManager.getManager(context).getSosNumberCount();
-                //Toast.makeText(context, "result recieved " + emresult + "\nSOS count: " + n, Toast.LENGTH_SHORT).show();
                 //TODO DB transaction and send msg
-                Toast.makeText(context, "result recieved " + emresult, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "result recieved " + emresult, Toast.LENGTH_SHORT).show();
 
-                //ringtone
-                Intent ringtonePlayingService = new Intent(context, RingtonePlayingService.class);
-                context.startService(ringtonePlayingService);
+
+                //Intent ringtonePlayingService = new Intent(context, RingtonePlayingService.class);
+                //context.startService(ringtonePlayingService);
             }
             if(lbresult == 2) {
                 Toast.makeText(context, "result recieved " + lbresult, Toast.LENGTH_SHORT).show();

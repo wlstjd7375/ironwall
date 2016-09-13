@@ -13,7 +13,10 @@
     <!-- Bluetooth -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +26,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.LoadingActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,25 +36,39 @@
         </activity>
         <activity
             android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.NMapActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.SosActivity"
             android:label="@string/title_activity_sos"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SafenowActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity"/>>
+        </activity>
 
-        <service android:name=".service.SprayService" android:enabled="true"/>
-        <service android:name=".service.RingtonePlayingService" android:enabled="true"/>
-        <receiver android:name=".service.SpraySignalReceiver">
-            <intent-filter>
-                <action android:name="com.irolwall.IRONWALL" />
-            </intent-filter>
-        </receiver>
+        <service
+            android:name=".service.SprayService"
+            android:enabled="true" />
+        <service
+            android:name=".service.RingtonePlayingService"
+            android:enabled="true" />
+
+
     </application>
 
 </manifest>

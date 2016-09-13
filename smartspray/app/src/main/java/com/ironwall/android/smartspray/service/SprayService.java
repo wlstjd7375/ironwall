@@ -2,6 +2,8 @@ package com.ironwall.android.smartspray.service;
 
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
+import android.app.Notification;
+import android.app.PendingIntent;
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -18,15 +20,20 @@ import android.bluetooth.le.ScanResult;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
+import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.ironwall.android.smartspray.R;
 import com.ironwall.android.smartspray.activity.MainActivity;
 import com.ironwall.android.smartspray.global.GlobalVariable;
 
@@ -102,7 +109,7 @@ public class SprayService extends Service {
         }
     });
 
-    private SpraySignalReceiver mReceiver;
+
 
     @Override
     public void onCreate() {
@@ -122,23 +129,45 @@ public class SprayService extends Service {
 
         //Receiver
         mContext = this;
-        mReceiver = new SpraySignalReceiver();
 
-        //Broadcase Receiver
-        IntentFilter register = new IntentFilter();
-        register.addAction(GlobalVariable.BROADCASTER);
-        registerReceiver(mReceiver, register);
+
+
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        //TODO startForeground noti 수정
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.mipmap.ic_launcher)
+                        .setContentTitle("IRONWALL")
+                        .setContentText("스프레이와 연결되어 있습니다.");
+
+        Intent resultIntent = new Intent(getApplicationContext(),MainActivity.class);
+
+        TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
+        stackBuilder.addParentStack(MainActivity.class);
+        stackBuilder.addNextIntent(resultIntent);
+
+        PendingIntent resultPandingIntent =
+                stackBuilder.getPendingIntent(
+                        0,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
+
+        mBuilder.setAutoCancel(true);
+
+        mBuilder.setContentIntent(resultPandingIntent);
+        startForeground(1111, mBuilder.build());
+
+        //startForeground(1, new Notification());
+
         scanLeDevice();
         return super.onStartCommand(intent, flags, startId);
     }
 
     @Override
     public void onDestroy() {
-        unregisterReceiver(mReceiver);
         Intent ringtonePlayingService = new Intent(mContext, RingtonePlayingService.class);
         stopService(ringtonePlayingService);
         disconnect(); close();
@@ -167,6 +196,7 @@ public class SprayService extends Service {
     }
 
     // SDK >= 21 에서 작동하는 ScanCallback
+    //@TargetApi(Build.VERSION_CODES.KITKAT)
     private ScanCallback mScanCallback = new ScanCallback()
     {
         @Override
@@ -294,30 +324,31 @@ public class SprayService extends Service {
                 int getdata = ByteBuffer.wrap(characteristic.getValue()).order(ByteOrder.LITTLE_ENDIAN).getInt();
                 Log.d(LOG_TAG, "data received in onCharacteristicChanged " + getdata);
 
-                //Intent broadcastsender = new Intent(GlobalVariable.BROADCASTER);
+                Intent broadcastsender = new Intent(GlobalVariable.BROADCASTER);
 
                 switch (getdata) {
                     case GlobalVariable.IN_EMERGENCY:
 
-                        //broadcastsender.putExtra(GlobalVariable.emergency, getdata);
+                        broadcastsender.putExtra(GlobalVariable.emergency, getdata);
                         Intent intent = new Intent (SprayService.this, MainActivity.class);
                         //FLAG_ACTIVITY_NEW_TASK : 새로운 스택에 액티비티를 생성하나, 동일한 affinity 의 스택이 있는 경우 그곳에 액티비티 생성
                         //FLAG_ACTIVITY_SINGLE_TOP : 스택의 최상위 액티비티와 같은경우 생성하지 않는다.
                         //FLAG_ACTIVITY_CLEAR_TOP : 스택에서 해당 액티비티가 존재하는 경우 상위의 모든 액티비티를 pop(삭제) 하고 top 으로 만들어 준다.
-                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         startActivity(intent);
-                        Toast.makeText(mContext, "result recieved " + getdata, Toast.LENGTH_SHORT).show();
 
-                        //Intent ringtonePlayingService = new Intent(mContext, RingtonePlayingService.class);
-                        //startService(ringtonePlayingService);
+                        //play Rintone(Alarm)
+                        Intent ringtonePlayingService = new Intent(mContext, RingtonePlayingService.class);
+                        startService(ringtonePlayingService);
+
                         break;
                     case GlobalVariable.IN_LOWBATTERY:
-                        //broadcastsender.putExtra(GlobalVariable.lowbattery, getdata);
+                        broadcastsender.putExtra(GlobalVariable.lowbattery, getdata);
                         Toast.makeText(mContext, "result recieved " + getdata, Toast.LENGTH_SHORT).show();
                         break;
                 }
                 Log.d(LOG_TAG, "sendBroadcast");
-                //sendBroadcast(broadcastsender);
+                sendBroadcast(broadcastsender);
             }
         }
 
