@@ -11,6 +11,7 @@
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/llTotalStatus"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -18,7 +19,7 @@
         android:layout_marginRight="6dp"
         android:layout_marginBottom="3dp"
         android:layout_marginLeft="6dp"
-        android:background="@drawable/main_status"
+        android:background="@drawable/main_status_dis"
         android:orientation="horizontal">
         <LinearLayout
             android:layout_width="0dp"
@@ -129,8 +130,8 @@
                 android:layout_weight="1">
                 <ImageView
                     android:id="@+id/ivRefresh"
-                    android:layout_width="12dp"
-                    android:layout_height="10dp"
+                    android:layout_width="14dp"
+                    android:layout_height="12dp"
                     android:background="@drawable/icon_refresh2"
                     android:layout_margin="5dp"
                     android:layout_alignParentBottom="true"
@@ -148,6 +149,7 @@
         android:layout_weight="2.7"
         android:orientation="vertical">
         <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1">

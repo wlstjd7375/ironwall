@@ -4,12 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.Toast;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.Toast;
 
 import com.ironwall.android.smartspray.dto.PoliceStation;
 import com.ironwall.android.smartspray.global.GlobalVariable;
@@ -348,6 +349,10 @@ public class NMapManager {
                 mMapController.animateTo(myLocation);
             }
             myCurrentPosition = myLocation;
+            GlobalVariable.nowloc = myLocation;
+            if(DEBUG) {
+                Log.d(LOG_TAG, myLocation.getLatitude() +", " + myLocation.getLongitude());
+            }
             return true;
         }
 
@@ -528,8 +533,15 @@ public class NMapManager {
             }
 
             // [[TEMP]] handle a click event of the callout
-            Toast.makeText(mContext, "onCalloutClick: " + item.getTitle(), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(mContext, "onCalloutClick: " + item.getTitle(), Toast.LENGTH_SHORT).show();
             // TODO 근처의 파출소 전화번호를 가져올 수 있으면 클릭 시 바로 전화 가능하게 구현.
+            String title = item.getTitle();
+            String number = title.split("\n")[1];
+            String TELL_FORMAT = "tel:";
+            //Toast.makeText(mContext, number, Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(TELL_FORMAT + number));
+            mContext.startActivity(intent);
             getCurrentPosition();
         }
 

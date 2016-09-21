@@ -3,17 +3,18 @@ package com.ironwall.android.smartspray.service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.media.MediaPlayer;
-import android.media.RingtoneManager;
 import android.net.Uri;
-import android.os.Debug;
-import android.preference.PreferenceManager;
+import android.telephony.SmsManager;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.ironwall.android.smartspray.database.DBManager;
+import com.ironwall.android.smartspray.dto.LogSms;
+import com.ironwall.android.smartspray.dto.SosNumber;
 import com.ironwall.android.smartspray.global.GlobalVariable;
+
+import java.util.ArrayList;
+import java.util.Calendar;
 
 /**
  * Created by KimJS on 2016-08-17.
@@ -35,8 +36,39 @@ public class SpraySignalReceiver extends BroadcastReceiver {
                 //Toast.makeText(context, "result recieved " + emresult, Toast.LENGTH_SHORT).show();
 
 
-                //Intent ringtonePlayingService = new Intent(context, RingtonePlayingService.class);
-                //context.startService(ringtonePlayingService);
+                Intent ringtonePlayingService = new Intent(context, RingtonePlayingService.class);
+
+
+                //Telephone
+                ArrayList<SosNumber> telnos = DBManager.getAllSosNumber();
+
+                double lat = GlobalVariable.nowloc.getLatitude();
+                double lng = GlobalVariable.nowloc.getLongitude();
+                String uri = "https://www.google.co.kr/maps/place/"+lat +","+lng;
+
+                Calendar calendar = Calendar.getInstance();
+                String time = calendar.getTime().toString();
+
+                try {
+                    for(SosNumber sn : telnos) {
+                        LogSms ls = new LogSms();
+                        ls.group_key = time;
+                        ls.name = sn.name;
+                        ls.number = sn.number;
+                        ls.latitude = GlobalVariable.nowloc.getLatitudeE6();
+                        ls.longitude = GlobalVariable.nowloc.getLongitudeE6();
+                        ls.message = uri;
+                        ls.result = "NO";
+                        SmsManager smsManager = SmsManager.getDefault();
+                        smsManager.sendTextMessage(sn.number, null, Uri.parse(uri).toString(), null, null);
+                        DBManager.setLogSms(ls);
+                    }
+                } catch (Exception e) {
+
+                    e.printStackTrace();
+                }
+
+                context.startService(ringtonePlayingService);
             }
             if(lbresult == 2) {
                 Toast.makeText(context, "result recieved " + lbresult, Toast.LENGTH_SHORT).show();

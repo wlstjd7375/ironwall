@@ -7,20 +7,20 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.media.Image;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
-import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -29,14 +29,11 @@ import android.widget.Toast;
 import com.ironwall.android.smartspray.R;
 import com.ironwall.android.smartspray.database.DBManager;
 import com.ironwall.android.smartspray.global.GlobalVariable;
-import com.ironwall.android.smartspray.service.RingtonePlayingService;
 import com.ironwall.android.smartspray.service.SprayService;
 import com.ironwall.android.smartspray.service.SpraySignalReceiver;
 import com.ironwall.android.smartspray.util.BluetoothUtil;
 import com.ironwall.android.smartspray.util.GpsUtil;
 import com.ironwall.android.smartspray.util.NetworkUtil;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
@@ -52,6 +49,7 @@ public class MainActivity extends AppCompatActivity
     private LinearLayout llSettings;
 
     //## Connection Status Check
+    private LinearLayout llTotalStatus;
     private ImageView ivInternetStatus;
     private ImageView ivGPSStatus;
     private ImageView ivBluetoothStatus;
@@ -88,7 +86,6 @@ public class MainActivity extends AppCompatActivity
         IntentFilter register = new IntentFilter();
         register.addAction(GlobalVariable.BROADCASTER);
         registerReceiver(mReceiver, register);
-
         startService();
     }
 
@@ -101,12 +98,14 @@ public class MainActivity extends AppCompatActivity
     private void startService() {
         //Check permission
 
-        int permissionCheck = ContextCompat.checkSelfPermission(this,
+        int bluetoothPermissionCheck = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_COARSE_LOCATION);
 
-        if(permissionCheck == PackageManager.PERMISSION_DENIED) {
+        int smsPermissionCheck  = ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS);
+
+        if(bluetoothPermissionCheck == PackageManager.PERMISSION_DENIED || smsPermissionCheck == PackageManager.PERMISSION_DENIED) {
             ActivityCompat.requestPermissions(this,
-                    new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
+                    new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.SEND_SMS},
                     REQUEST_ENABLE_BT);
         }
 
@@ -166,6 +165,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void initLayout() {
+        llTotalStatus = (LinearLayout)findViewById(R.id.llTotalStatus);
+
         //## Layout Buttons
         llSafenow = (LinearLayout)findViewById(R.id.llSafenow);
         llSafenow.setOnClickListener(new View.OnClickListener() {
@@ -265,6 +266,15 @@ public class MainActivity extends AppCompatActivity
         result += NetworkUtil.getConnectivityStatus(mContext);
         result += GpsUtil.getConnectivityStatus(mContext);
         result += BluetoothUtil.getConnectivityStatus(mContext);
+
+        boolean isConnected = true;
+        if(result == 7 || result == 15) {
+            llTotalStatus.setBackgroundResource(R.drawable.main_status_con);
+        }
+        else {
+            llTotalStatus.setBackgroundResource(R.drawable.main_status_dis);
+        }
+
         for(int i = 0; i < 4; i ++) {
             int on = result & 1;
             if(on == 1) {

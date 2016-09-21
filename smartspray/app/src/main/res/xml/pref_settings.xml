@@ -8,7 +8,7 @@
             android:key="pref_fake_call"
             android:title="Fake Call" />
         <RingtonePreference
-            android:defaultValue="content://settings/system/notification_sound"
+            android:defaultValue="content://settings/system/ringtone"
             android:dependency="pref_fake_call"
             android:key="pref_fake_call_ringtone"
             android:ringtoneType="ringtone"
@@ -41,7 +41,7 @@
             android:maxLines="1"
             android:selectAllOnFocus="true"
             android:singleLine="true"
-            android:title="Name" />
+            android:title="사용자 이름" />
         <EditTextPreference
             android:defaultValue=""
             android:inputType="numberPassword"
@@ -50,20 +50,12 @@
             android:maxEms="4"
             android:selectAllOnFocus="true"
             android:singleLine="true"
-            android:title="Password" />
-        <EditTextPreference
-            android:defaultValue=""
-            android:inputType="number"
-            android:key="pref_my_device"
-            android:maxLines="1"
-            android:selectAllOnFocus="true"
-            android:singleLine="true"
-            android:title="Device Serial Number" />
+            android:title="비밀번호" />
     </PreferenceCategory>
 
     <Preference
         android:key="pref_app_info"
-        android:title="App Info" />
+        android:title="앱 정보" />
 
 
 </PreferenceScreen>

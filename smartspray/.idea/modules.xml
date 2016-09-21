@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/nmaps/nmaps.iml" filepath="$PROJECT_DIR$/nmaps/nmaps.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smartspray.iml" filepath="$PROJECT_DIR$/smartspray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartspray_final.iml" filepath="$PROJECT_DIR$/smartspray_final.iml" />
     </modules>
   </component>
 </project>

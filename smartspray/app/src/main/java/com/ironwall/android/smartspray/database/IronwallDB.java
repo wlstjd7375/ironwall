@@ -78,5 +78,16 @@ public class IronwallDB {
                 + _POLICE_COL_LATITUDE + " integer not null "
                 + " );";
 
+        public static final String _CREATE_LOG_SMS_TABLE = "create table " + _LOG_SOS_TABLE_NAME
+                + " ( _id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + _LOG_SOS_COL_GROUP_KEY + " text,"
+                + _LOG_SOS_COL_NAME + " text, "
+                + _LOG_SOS_COL_NUMBER + " text not null, "
+                + _LOG_SOS_COL_RESULT + " text, "
+                + _LOG_SOS_COL_LATITUDE + " integer, "
+                + _LOG_SOS_COL_LONGITUDE + " integer, "
+                + _LOG_SOS_COL_MESSAGE + " text"
+                + " );";
+
     }
 }

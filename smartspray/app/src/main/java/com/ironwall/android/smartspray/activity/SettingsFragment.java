@@ -39,7 +39,6 @@ public class SettingsFragment extends PreferenceFragment {
 
         bindPreferenceSummaryToValue(findPreference("pref_my_name"));
         bindPreferenceSummaryToValue(findPreference("pref_my_password"));
-        bindPreferenceSummaryToValue(findPreference("pref_my_device"));
     }
 
     /**

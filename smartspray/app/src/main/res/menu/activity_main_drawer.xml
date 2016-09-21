@@ -4,11 +4,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_connect"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/icon_success"
             android:title="Connect Spray" />
         <item
             android:id="@+id/nav_disconnect"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/icon_fail"
             android:title="Disconnect Spray" />
     </group>
     <!--

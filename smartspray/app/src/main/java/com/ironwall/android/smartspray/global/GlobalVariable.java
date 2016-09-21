@@ -1,5 +1,7 @@
 package com.ironwall.android.smartspray.global;
 
+import com.nhn.android.maps.maplib.NGeoPoint;
+
 /**
  * Created by KimJS on 2016-07-24.
  */
@@ -28,4 +30,5 @@ public class GlobalVariable {
 
     public static String PACKAGE_NAME = "com.ironwall.android.smartspray";
 
+    public static NGeoPoint nowloc;
 }

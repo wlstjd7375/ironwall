@@ -3,9 +3,10 @@ package com.ironwall.android.smartspray.activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -14,16 +15,15 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ironwall.android.smartspray.R;
 import com.ironwall.android.smartspray.adapter.RecyclerViewAdapter;
-import com.ironwall.android.smartspray.database.DBHelper;
 import com.ironwall.android.smartspray.database.DBManager;
 import com.ironwall.android.smartspray.dto.SosNumber;
 import com.ironwall.android.smartspray.global.GlobalVariable;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class SosActivity extends AppCompatActivity {
@@ -34,6 +34,8 @@ public class SosActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
+
+    private TextView tvMessage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,6 +83,12 @@ public class SosActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
+        tvMessage = (TextView) findViewById(R.id.tvMessage);
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+        String name = sharedPref.getString("pref_my_name", "");
+        String msg = name + " 님이 위급상황에 처했습니다. \n위치: [링크]";
+        tvMessage.setText(msg);
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,9 +121,9 @@ public class SosActivity extends AppCompatActivity {
 
                 //if name and number are not null
                 SosNumber sn = new SosNumber();
-                if(number.length() >= 10) {
+                /*if(number.length() >= 10) {
                     number = changeNumberFormat(number);
-                }
+                }*/
                 sn.name = name;
                 sn.number = number;
 

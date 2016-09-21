@@ -12,6 +12,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
+import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
@@ -21,6 +22,8 @@ import com.ironwall.android.smartspray.R;
 import com.ironwall.android.smartspray.activity.MainActivity;
 import com.ironwall.android.smartspray.activity.SafenowActivity;
 import com.ironwall.android.smartspray.global.GlobalVariable;
+
+import java.io.File;
 
 /**
  * Created by KimJS on 2016-08-24.
@@ -59,7 +62,10 @@ public class RingtonePlayingService extends Service {
             if(GlobalVariable.IS_DEBUG_MODE) {
                 Log.d(LOG_TAG, ringtoneName);
             }
-            ringtone = RingtoneManager.getRingtone(this, ringtoneUri);
+
+            Uri siren = Uri.parse("android.resource://com.ironwall.android.smartspray/" + R.raw.siren);
+            //ringtone = RingtoneManager.getRingtone(this, ringtoneUri);
+            ringtone = RingtoneManager.getRingtone(this, siren);
             ringtone.play();
         }
         //TODO
